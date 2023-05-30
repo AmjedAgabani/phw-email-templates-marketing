@@ -1,0 +1,22 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all padding="0" />
+    </mj-attributes>
+    <mj-preview>Preview</mj-preview>
+    <mj-title>Title</mj-title>
+  </mj-head>
+
+  <mj-body>
+
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          Hello world!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+
+</mjml>
