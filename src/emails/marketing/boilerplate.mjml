@@ -144,12 +144,138 @@
           Upgrade Innovation <span style="font-size:0.75em;">►</span>
         </mj-text>
 
-        <mj-spacer height="44px" />
+        <mj-spacer css-class="hidden-desktop" height="44px" />
+        <mj-spacer css-class="hidden-mobile" height="19px" />
+
+      </mj-column>
+    </mj-section>
+
+    <!-- 3rd row we are logitech -->
+
+    <mj-section direction="rtl">
+
+      <mj-column width="380px">
+        <mj-image fluid-on-mobile="true" src="https://ci6.googleusercontent.com/proxy/RUiWrmc9dv_VFi8WqfnHeDvnxbdjfEW5sF5ijiDrSbPkvfhrsTDrAm6idx18Lhdf3_3V02r66JXVSoP39Sgv9RiXQzBKohUBAwjeiF_tLy7Hv2nno5CGFkwBhbRxALQfrRttyhgH54_8XHZxkPCchfdsm3zTj7rleyMdpSBen3eHrEu5jY5Cc1CRQD-MET0=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/b085bf97d7c454e1eb575def647a1cbb1d6ac4a2cdebc9552f05f947340c491a.jpg" width="380px" />
+      </mj-column>
+
+      <mj-column background-color="#1C1C1C" padding-left="30px" padding-right="20px" width="258px">
+
+        <mj-spacer css-class="hidden-desktop" height="23px" />
+        <mj-spacer css-class="hidden-mobile" height="40px" />
+
+        <mj-text color="#ffffff" font-family="Arial, sans-serif" font-size="24px" line-height="26px" text-transform="uppercase">
+          Zero oppositon
+        </mj-text>
+
+        <mj-spacer height="14px" />
+
+        <mj-divider align="left" border-color="#C3C6C8" border-style="solid" border-width="6px" width="88px" />
+
+        <mj-spacer height="18px" />
+
+        <mj-text color="#ffffff" font-family="Arial, sans-serif" font-size="16px" line-height="20px">
+          Get in on the win all around the world. See how esports teams & pro gamers play at their peak with Logitech G.
+        </mj-text>
+
+        <mj-spacer height="26px" />
+
+        <mj-text color="#00b8fc" font-family="Arial, sans-serif" font-size="14px" font-weight="700" line-height="18px" text-transform="uppercase">
+          Play to win <span style="font-size:0.75em;">►</span>
+        </mj-text>
+
+        <mj-spacer css-class="hidden-desktop" height="46px" />
+        <mj-spacer css-class="hidden-mobile" height="65px" />
+
+      </mj-column>
+    </mj-section>
 
 
-        <!-- 3rd row we are logitech -->
+    <!-- 4nd row unlock the possibilities -->
+
+    <mj-section>
+      <mj-column width="367px">
+        <mj-image fluid-on-mobile="true" src="https://ci3.googleusercontent.com/proxy/Ad_rdh1j5L5UQ3Me5PT2xqhdOr4G5zvXil_O0DaQGnOC40zPXxls6LmNmCuzxJ5enEGY_KjIqtFHpnvGl4fzkWVcD-dbiYl2G8bswgczOVz1hSknH9-nE9-aIgs2yGnU0C5g3URITSSO1Jh4KTksUOTloZ3f3gu_1mFkswuSYnyjiqwALVNbQzl7TGtUbi4=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/619a4eea16d8ff60d30b5b9f506c2a75f6fd089472dcfb3daf1c09f8c6a23d46.gif" width="367px" />
+      </mj-column>
+      <mj-column width="273px" padding-left="22px" padding-right="30px">
+
+        <mj-spacer css-class="hidden-desktop" height="23px" />
+        <mj-spacer css-class="hidden-mobile" height="40px" />
+
+        <mj-text color="#000000" font-family="Arial, sans-serif" font-size="24px" line-height="26px" text-transform="uppercase">
+          Unlock the possibilities
+        </mj-text>
+
+        <mj-spacer height="14px" />
+
+        <mj-divider align="left" border-color="#C3C6C8" border-style="solid" border-width="6px" width="88px" />
+
+        <mj-spacer height="18px" />
+
+        <mj-text color="#000000" font-family="Arial, sans-serif" font-size="16px" line-height="20px">
+          When everyone plays, we all win. Our adaptive gaming kits keep everyone in the game.
+        </mj-text>
+
+        <mj-spacer height="26px" />
+
+        <mj-text color="#00b8fc" font-family="Arial, sans-serif" font-size="14px" font-weight="700" line-height="18px" text-transform="uppercase">
+          Explore adaptive gaming <span style="font-size:0.75em;">►</span>
+        </mj-text>
+
+        <mj-spacer css-class="hidden-desktop" height="46px" />
+        <mj-spacer css-class="hidden-mobile" height="80px" />
 
 
+      </mj-column>
+    </mj-section>
+
+    <!-- 5th row all are welcome -->
+
+    <mj-section direction="rtl">
+
+      <mj-column width="380px">
+        <mj-image fluid-on-mobile="true" src="https://ci5.googleusercontent.com/proxy/C3o6ca8n7782DsEVxRuUW1-huJSlbWsWKcqX0PmU9azOdvcYtPP2vPIZyAfYBjDMILQRAZnJZc4edXcNn20xkrKer_yu-LnPbKBc7sXqzcoHOXqTvYIVk3ILXh_sSELze1RBqXCQBZvqC9uWVm7yBHjie3xgblF3CmidR5RoQoMIBjmnSlqmC3BGZ7-cVaI=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/20b9c8142f8b403a95e370fa338f660b3233a405b341b2f6d735c7f97550e61d.jpg" width="380px" />
+      </mj-column>
+
+      <mj-column background-color="#1C1C1C" padding-left="30px" padding-right="20px" width="258px">
+
+        <mj-spacer css-class="hidden-desktop" height="23px" />
+        <mj-spacer css-class="hidden-mobile" height="40px" />
+
+        <mj-text color="#ffffff" font-family="Arial, sans-serif" font-size="24px" line-height="26px" text-transform="uppercase">
+          All are welcome
+        </mj-text>
+
+        <mj-spacer height="14px" />
+
+        <mj-divider align="left" border-color="#C3C6C8" border-style="solid" border-width="6px" width="88px" />
+
+        <mj-spacer height="18px" />
+
+        <mj-text color="#ffffff" font-family="Arial, sans-serif" font-size="16px" line-height="20px">
+          Come alive with the passion for play with the Logitech G community.
+        </mj-text>
+
+        <mj-spacer height="26px" />
+
+        <mj-text color="#00b8fc" font-family="Arial, sans-serif" font-size="14px" font-weight="700" line-height="18px" text-transform="uppercase">
+          Join the community <span style="font-size:0.75em;">►</span>
+        </mj-text>
+
+        <mj-spacer css-class="hidden-desktop" height="47px" />
+        <mj-spacer css-class="hidden-mobile" height="85.4px" />
+
+      </mj-column>
+    </mj-section>
+
+
+    <!-- shop top tier gear -->
+    <mj-section padding="0 20px">
+      <mj-column>
+        <mj-spacer height="51px" />
+        <mj-text align="left" color="#000000" font-family="Arial, sans-serif" font-size="40px" font-weight="300px" line-height="48px" text-transform="uppercase">
+          Shop top-tier gear
+        </mj-text>
+        <mj-spacer height="76px" />
       </mj-column>
     </mj-section>
 
