@@ -68,16 +68,6 @@
       }
     </mj-style>
 
-    <!-- Social spacing -->
-
-    <mj-style>
-      @media (min-width: 480px) {
-      .button-sizing-desktop > table {
-      width: 240px !important;
-      }
-      }
-    </mj-style>
-
     <!-- Responsive -->
 
     <mj-style>
