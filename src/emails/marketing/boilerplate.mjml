@@ -68,6 +68,15 @@
       }
     </mj-style>
 
+    <!-- Regulatory Desktop Padding -->
+    <mj-style>
+      @media(min-width: 480px) {
+      .desktop-regulatory-padding > table > tbody > tr > td{
+      padding: 0px 120px !important
+      }
+      }
+    </mj-style>
+
     <!-- Responsive -->
 
     <mj-style>
@@ -682,7 +691,7 @@
                       <!-- twitch social icon -->
                       <td align="center" valign="middle" width="12.5%">
                         <a href="#">
-                          <img src="https://ci4.googleusercontent.com/proxy/0AjlHbKRnGABHDqqyAHzO_nqofZ1RkdP-w5zK90YmQ3du81HiOK93LheXlvlZGe4ohnSBQnis-KyuWYql-QE1kTN-yV502lTnWQS5HMrT6YeuAxBycdGOvBkvkpiorBVPBa8v6QevaQBG78EeoDOpbKE5npnRgHbZBrgEbRcBw=s0-d-e1-ft#https://logitech-mkt-prod1-res.adobe-campaign.com/res/logitec_mkt_prod1/78b51b59e957604a9ce820026e449520.png" style="display:block" width="28" />
+                          <img src="https://ci4.googleusercontent.com/proxy/0AjlHbKRnGABHDqqyAHzO_nqofZ1RkdP-w5zK90YmQ3du81HiOK93LheXlvlZGe4ohnSBQnis-KyuWYql-QE1kTN-yV502lTnWQS5HMrT6YeuAxBycdGOvBkvkpiorBVPBa8v6QevaQBG78EeoDOpbKE5npnRgHbZBrgEbRcBw=s0-d-e1-ft#https://logitech-mkt-prod1-res.adobe-campaign.com/res/logitec_mkt_prod1/78b51b59e957604a9ce820026e449520.png" style="display:block;" width="28" />
                         </a>
                       </td>
                       <!-- twitter social icon -->
@@ -734,11 +743,66 @@
 
     <!-- logitech logo footer -->
 
-    <mj-section background-color="#ffffff">
+    <mj-section background-color="#ffffff" padding="0 20px">
       <mj-column>
         <mj-spacer height="40px" />
         <mj-image href="#" src="https://ci6.googleusercontent.com/proxy/X8ouSwn62J-N2omqOCOBzq19a8TML0wP49UTgFMQJCLRpYpbI2yjJju-GY_1iZfjiZ5h0dbD5O4GH3kUZTEQ7aD9T0Wps6YmFUKJTLJtkmGi6OviCiJC6qfn_tdzvnpw6fgsqAZUCxiZNpTHKs-h=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/9fb7527248533180a96383fa8594aed0.png" width="159px" />
         <mj-spacer height="30px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- desktop -->
+
+    <mj-section background-color="#ffffff" css-class="hidden-mobile"  padding="0 20px">
+      <mj-column>
+        <mj-text align="center" color="#000" font-size="14px" line-height="18px" text-transform="uppercase">
+          <a href="#" style="color:inherit-color; padding:0 15px; border-right:2px solid #000; text-decoration: none">Privacy + Security</a>
+          <a href="#" style="color:inherit-color; padding:0 15px; border-right:2px solid #000; text-decoration: none">Preferences</a>
+          <a href="#" style="color:inherit-color; padding:0 15px; border-right:2px solid #000; text-decoration: none">Contact</a>
+          <a href="#" style="color:inherit-color; padding:0 15px; text-decoration: none">Terms of use</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- mobile -->
+    <mj-section background-color="#ffffff" css-class="hidden-desktop" padding="0 20px">
+      <mj-column>
+        <mj-text align="center" color="#000" font-size="14px" line-height="18px" padding="15px" text-transform="uppercase">
+          <a href="#" style="color:inherit-color; text-decoration: none;">Privacy + Security</a>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text align="center" color="#000" font-size="14px" line-height="18px" padding="15px" text-transform="uppercase">
+          <a href="#" style="color:inherit-color; text-decoration: none;">Preferences</a>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text align="center" color="#000" font-size="14px" line-height="18px" padding="15px" text-transform="uppercase">
+          <a href="#" style="color:inherit-color; text-decoration: none;">Contact</a>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text align="center" color="#000" font-size="14px" line-height="18px" padding="15px" text-transform="uppercase">
+          <a href="#" style="color:inherit-color; text-decoration: none;">Terms of use</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" css-class="desktop-regulatory-padding" padding="0 20px">
+      <mj-column>
+        <mj-spacer height="20px" />
+        <mj-text align="center" color="#000000" font-size="12px" line-height="16px">
+          © 2023 Logitech. All rights reserved. The Logitech G logo and other Logitech marks are owned by Logitech and may be registered.
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text align="center" font-size="12px" line-height="16px">
+          Logitech Americas Headquarters.<br>7700 Gateway Blvd. Newark, CA 94560 USA
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text align="center" font-size="12px" line-height="16px">
+          You are receiving this e-mail because our records indicate you requested that we send information to <a href="#">name@mail.com</a> regarding special offers, newsletters, product information and updates from Logitech G. To be removed from our mailing list, <a href="#">click here</a>.
+        </mj-text>
+        <mj-spacer height="32px" />
       </mj-column>
     </mj-section>
 
