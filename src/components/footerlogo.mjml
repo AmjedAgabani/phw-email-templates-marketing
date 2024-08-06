@@ -1,4 +1,4 @@
-<mj-section background-color="#ffffff" padding="0 20px">
+<mj-section mj-class="white-bg" padding="0 20px">
   <mj-column>
     <mj-spacer height="40px" />
     <mj-image href="#" src="https://ci6.googleusercontent.com/proxy/X8ouSwn62J-N2omqOCOBzq19a8TML0wP49UTgFMQJCLRpYpbI2yjJju-GY_1iZfjiZ5h0dbD5O4GH3kUZTEQ7aD9T0Wps6YmFUKJTLJtkmGi6OviCiJC6qfn_tdzvnpw6fgsqAZUCxiZNpTHKs-h=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/9fb7527248533180a96383fa8594aed0.png" width="159px" />

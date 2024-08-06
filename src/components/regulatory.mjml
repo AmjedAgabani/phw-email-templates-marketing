@@ -1,38 +1,38 @@
-<mj-section background-color="#ffffff" css-class="hidden-mobile" padding="0 20px">
+<mj-section css-class="hidden-mobile" mj-class="white-bg" padding="0 20px">
   <mj-column>
     <mj-text align="center" mj-class="black navbar-text uppercase">
-      <a href="#" style="color:inherit-color; padding:0 15px; border-right:2px solid #000; text-decoration: none">Privacy + Security</a>
-      <a href="#" style="color:inherit-color; padding:0 15px; border-right:2px solid #000; text-decoration: none">Preferences</a>
-      <a href="#" style="color:inherit-color; padding:0 15px; border-right:2px solid #000; text-decoration: none">Contact</a>
-      <a href="#" style="color:inherit-color; padding:0 15px; text-decoration: none">Terms of use</a>
+      <a href="#" class="inherit-color" style="padding:0 15px; border-right:2px solid #000; text-decoration: none">Privacy + Security</a>
+      <a href="#" class="inherit-color" style="padding:0 15px; border-right:2px solid #000; text-decoration: none">Preferences</a>
+      <a href="#" class="inherit-color" style="padding:0 15px; border-right:2px solid #000; text-decoration: none">Contact</a>
+      <a href="#" class="inherit-color" style="padding:0 15px; text-decoration: none">Terms of use</a>
     </mj-text>
   </mj-column>
 </mj-section>
 
-<mj-section background-color="#ffffff" css-class="hidden-desktop" padding="0 20px">
+<mj-section css-class="hidden-desktop" mj-class="white-bg" padding="0 20px">
   <mj-column>
-    <mj-text align="center" color="#000" font-size="14px" line-height="18px" padding="15px" text-transform="uppercase">
-      <a href="#" style="color:inherit-color; text-decoration: none;">Privacy + Security</a>
+    <mj-text align="center" mj-class="black cta-text uppercase" padding="15px">
+      <a href="#">Privacy + Security</a>
     </mj-text>
   </mj-column>
   <mj-column>
-    <mj-text align="center" color="#000" font-size="14px" line-height="18px" padding="15px" text-transform="uppercase">
-      <a href="#" style="color:inherit-color; text-decoration: none;">Preferences</a>
+    <mj-text align="center" mj-class="black cta-text uppercase" padding="15px">
+      <a href="#">Preferences</a>
     </mj-text>
   </mj-column>
   <mj-column>
-    <mj-text align="center" color="#000" font-size="14px" line-height="18px" padding="15px" text-transform="uppercase">
-      <a href="#" style="color:inherit-color; text-decoration: none;">Contact</a>
+    <mj-text align="center" mj-class="black cta-text uppercase" padding="15px">
+      <a href="#">Contact</a>
     </mj-text>
   </mj-column>
   <mj-column>
-    <mj-text align="center" color="#000" font-size="14px" line-height="18px" padding="15px" text-transform="uppercase">
-      <a href="#" style="color:inherit-color; text-decoration: none;">Terms of use</a>
+    <mj-text align="center" mj-class="black cta-text uppercase" padding="15px">
+      <a href="#">Terms of use</a>
     </mj-text>
   </mj-column>
 </mj-section>
 
-<mj-section background-color="#ffffff" css-class="desktop-regulatory-padding" padding="0 20px">
+<mj-section css-class="desktop-regulatory-padding" mj-class="white-bg" padding="0 20px">
   <mj-column>
     <mj-spacer height="20px" />
     <mj-text align="center" mj-class="black regulatory-text">

@@ -15,7 +15,7 @@
 
 <mj-class name="button-text" font-family="Arial, sans-serif" font-size="14px" />
 
-<mj-class name="cta-text" font-family="Arial, sans-serif" font-size="14px" line-height="18px" />
+<mj-class name="cta-text" font-family="Arial, sans-serif" font-size="14px" line-height="18px" text-decoration:"none" />
 
 <mj-class name="navbar-text" font-family="Arial, sans-serif" font-size="14px" line-height="18px" />
 

@@ -6,51 +6,11 @@
       <mj-include path="../../styles/mj-class/colors.mjml" />
       <mj-include path="../../styles/mj-class/typography.mjml" />
     </mj-attributes>
+    <mj-include path="../../styles/css/colors.mjml" />
+    <mj-include path="../../styles/css/responsive.mjml" />
+    <mj-include path="../../styles/css/typography.mjml" />
     <mj-preview>Preview</mj-preview>
     <mj-title>Title</mj-title>
-    <!-- Header text desktop -->
-    <mj-style>
-      @media (min-width: 480px) {
-        .header-text-desktop {
-          font-size: 38px;
-          line-height: 48px;
-        }
-      }
-    </mj-style>
-
-    <!-- Body text positioning desktop -->
-
-    <mj-style>
-      @media (min-width: 480px) {
-        .body-text-padding-desktop {
-          padding-right: 260px !important;
-        }
-      }
-    </mj-style>
-
-    <!-- Section text positioning desktop -->
-    <mj-style>
-      @media (min-width: 480px) {
-      .section-text-desktop-alignment > div {
-      text-align: center !important;
-      }
-      }
-    </mj-style>
-
-    <!-- Header background positioning desktop -->
-
-    <mj-style>
-
-      @media (min-width: 480px) {
-      .header-background-position-desktop > div > table {
-      background-size: cover !important;
-      background-position: unset !important;
-      }
-      }
-    </mj-style>
-
-    <!-- Collect emails desktop styling -->
-
     <mj-style>
 
       @media (min-width: 480px) {
@@ -60,29 +20,6 @@
       }
 
     </mj-style>
-
-    <!-- Button sizing desktop -->
-
-    <mj-style>
-      @media (min-width: 480px) {
-      .button-sizing-desktop > table {
-      width: 240px !important;
-      }
-      }
-    </mj-style>
-
-    <!-- Regulatory Desktop Padding -->
-    <mj-style>
-      @media(min-width: 480px) {
-      .desktop-regulatory-padding > table > tbody > tr > td{
-      padding: 0px 120px !important
-      }
-      }
-    </mj-style>
-
-    <!-- Responsive -->
-
-    <mj-include path="../../styles/css/responsive.mjml" />
   </mj-head>
 
   <mj-body mj-class="dim-gray-bg" width="640px">
@@ -105,7 +42,7 @@
         <mj-spacer css-class="hidden-desktop" height="30px" />
         <mj-spacer css-class="hidden-mobile" height="25px" />
 
-        <mj-divider align="left" border-color="white" border-style="solid" border-width="6px" width="84px" />
+        <mj-divider align="left" border-color="#ffffff" border-style="solid" border-width="6px" width="84px" />
 
         <mj-spacer css-class="hidden-desktop" height="22px" />
         <mj-spacer css-class="hidden-mobile" height="20px" />
@@ -160,7 +97,7 @@
         </mj-text>
 
         <mj-spacer css-class="hidden-desktop" height="44px" />
-        <mj-spacer css-class="hidden-mobile" height="19px" />
+        <mj-spacer css-class="hidden-mobile" height="14px" />
 
       </mj-column>
     </mj-section>
@@ -237,7 +174,7 @@
         </mj-text>
 
         <mj-spacer css-class="hidden-desktop" height="46px" />
-        <mj-spacer css-class="hidden-mobile" height="80px" />
+        <mj-spacer css-class="hidden-mobile" height="74px" />
 
 
       </mj-column>
@@ -305,12 +242,12 @@
               <img align="right" src="https://ci4.googleusercontent.com/proxy/4MnIFOs2-2euByeb7XwEbOM_vK_ZgOhj3YwNRMRkLWOr9hlvI0EBybLZ74Gm3dLSTpLEf5D4YRkRAsYje687aOwukzHCrIlIh8BDq4VeLsj_01Wk_dh81RxOtlNLYJ1zceTX6jsnCB2KelBGDdJKyN99dNaiq5EZ7oUpF1oMGWpUaL4pQBt6GlYmZXNv648=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/1aef980085160e70539dcb54c109404b0ef380f4f0aa597a7b0fb0741e78cc07.png" width="102px">
             </td>
             <td style="vertical-align: bottom;">
-              <span style="color:#000; font-family:Arial, sans-serif; font-size: 16px; line-height:20px;text-transform: uppercase;">Gaming mice</span>
+              <span class="black body-text uppercase">Gaming mice</span>
             </td>
           </tr>
           <tr>
             <td style="padding-top:10px;vertical-align: top">
-              <a href="#" style="color:#00B8FC; font-size: 14px; font-weight: 700; line-height:18px;text-decoration: none; text-transform: uppercase;">Shop now <span style="font-size: 0.75em">►</span></a>
+              <a href="#" class="light-blue cta-text bold uppercase">Shop now <span class="icon-text">►</span></a>
             </td>
           </tr>
         </mj-table>
@@ -322,12 +259,13 @@
               <img align="right" src="https://ci4.googleusercontent.com/proxy/4MnIFOs2-2euByeb7XwEbOM_vK_ZgOhj3YwNRMRkLWOr9hlvI0EBybLZ74Gm3dLSTpLEf5D4YRkRAsYje687aOwukzHCrIlIh8BDq4VeLsj_01Wk_dh81RxOtlNLYJ1zceTX6jsnCB2KelBGDdJKyN99dNaiq5EZ7oUpF1oMGWpUaL4pQBt6GlYmZXNv648=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/1aef980085160e70539dcb54c109404b0ef380f4f0aa597a7b0fb0741e78cc07.png" width="102px">
             </td>
             <td style="vertical-align: bottom;">
-              <span style="color:#000; font-family:Arial, sans-serif; font-size: 16px; line-height:20px;text-transform: uppercase;">Gaming mice</span>
+              <span class="black body-text uppercase">Gaming mice</span>
             </td>
           </tr>
           <tr>
             <td style="padding-top:10px;vertical-align: top">
-              <a href="#" style="color:#00B8FC; font-size: 14px; font-weight: 700; line-height:18px;text-decoration: none; text-transform: uppercase;">Shop now <span style="font-size: 0.75em">►</span></a>
+              <a href="#" class="light-blue cta-text bold uppercase">Shop now <span class="icon-text">►</span></a>
+            </td>
             </td>
           </tr>
         </mj-table>
@@ -344,12 +282,12 @@
               <img align="right" src="https://ci4.googleusercontent.com/proxy/4MnIFOs2-2euByeb7XwEbOM_vK_ZgOhj3YwNRMRkLWOr9hlvI0EBybLZ74Gm3dLSTpLEf5D4YRkRAsYje687aOwukzHCrIlIh8BDq4VeLsj_01Wk_dh81RxOtlNLYJ1zceTX6jsnCB2KelBGDdJKyN99dNaiq5EZ7oUpF1oMGWpUaL4pQBt6GlYmZXNv648=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/1aef980085160e70539dcb54c109404b0ef380f4f0aa597a7b0fb0741e78cc07.png" width="102px">
             </td>
             <td style="vertical-align: bottom;">
-              <span style="color:#000; font-family:Arial, sans-serif; font-size: 16px; line-height:20px;text-transform: uppercase;">Gaming mice</span>
+              <span class="black body-text uppercase">Gaming mice</span>
             </td>
           </tr>
           <tr>
             <td style="padding-top:10px;vertical-align: top">
-              <a href="#" style="color:#00B8FC; font-size: 14px; font-weight: 700; line-height:18px;text-decoration: none; text-transform: uppercase;">Shop now <span style="font-size: 0.75em">►</span></a>
+              <a href="#" class="light-blue cta-text bold uppercase">Shop now <span class="icon-text">►</span></a>
             </td>
           </tr>
         </mj-table>
@@ -361,12 +299,12 @@
               <img align="right" src="https://ci4.googleusercontent.com/proxy/4MnIFOs2-2euByeb7XwEbOM_vK_ZgOhj3YwNRMRkLWOr9hlvI0EBybLZ74Gm3dLSTpLEf5D4YRkRAsYje687aOwukzHCrIlIh8BDq4VeLsj_01Wk_dh81RxOtlNLYJ1zceTX6jsnCB2KelBGDdJKyN99dNaiq5EZ7oUpF1oMGWpUaL4pQBt6GlYmZXNv648=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/1aef980085160e70539dcb54c109404b0ef380f4f0aa597a7b0fb0741e78cc07.png" width="102px">
             </td>
             <td style="vertical-align: bottom;">
-              <span style="color:#000; font-family:Arial, sans-serif; font-size: 16px; line-height:20px;text-transform: uppercase;">Gaming mice</span>
+              <span class="black body-text uppercase">Gaming mice</span>
             </td>
           </tr>
           <tr>
             <td style="padding-top:10px;vertical-align: top">
-              <a href="#" style="color:#00B8FC; font-size: 14px; font-weight: 700; line-height:18px;text-decoration: none; text-transform: uppercase;">Shop now <span style="font-size: 0.75em">►</span></a>
+              <a href="#" class="light-blue cta-text bold uppercase">Shop now <span class="icon-text">►</span></a>
             </td>
           </tr>
         </mj-table>
@@ -383,12 +321,12 @@
               <img align="right" src="https://ci4.googleusercontent.com/proxy/4MnIFOs2-2euByeb7XwEbOM_vK_ZgOhj3YwNRMRkLWOr9hlvI0EBybLZ74Gm3dLSTpLEf5D4YRkRAsYje687aOwukzHCrIlIh8BDq4VeLsj_01Wk_dh81RxOtlNLYJ1zceTX6jsnCB2KelBGDdJKyN99dNaiq5EZ7oUpF1oMGWpUaL4pQBt6GlYmZXNv648=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/1aef980085160e70539dcb54c109404b0ef380f4f0aa597a7b0fb0741e78cc07.png" width="102px">
             </td>
             <td style="vertical-align: bottom;">
-              <span style="color:#000; font-family:Arial, sans-serif; font-size: 16px; line-height:20px;text-transform: uppercase;">Gaming mice</span>
+              <span class="black body-text uppercase">Gaming mice</span>
             </td>
           </tr>
           <tr>
             <td style="padding-top:10px;vertical-align: top">
-              <a href="#" style="color:#00B8FC; font-size: 14px; font-weight: 700; line-height:18px;text-decoration: none; text-transform: uppercase;">Shop now <span style="font-size: 0.75em">►</span></a>
+              <a href="#" class="light-blue cta-text bold uppercase">Shop now <span class="icon-text">►</span></a>
             </td>
           </tr>
         </mj-table>
@@ -400,12 +338,12 @@
               <img align="right" src="https://ci4.googleusercontent.com/proxy/4MnIFOs2-2euByeb7XwEbOM_vK_ZgOhj3YwNRMRkLWOr9hlvI0EBybLZ74Gm3dLSTpLEf5D4YRkRAsYje687aOwukzHCrIlIh8BDq4VeLsj_01Wk_dh81RxOtlNLYJ1zceTX6jsnCB2KelBGDdJKyN99dNaiq5EZ7oUpF1oMGWpUaL4pQBt6GlYmZXNv648=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/1aef980085160e70539dcb54c109404b0ef380f4f0aa597a7b0fb0741e78cc07.png" width="102px">
             </td>
             <td style="vertical-align: bottom;">
-              <span style="color:#000; font-family:Arial, sans-serif; font-size: 16px; line-height:20px;text-transform: uppercase;">Gaming mice</span>
+              <span class="black body-text uppercase">Gaming mice</span>
             </td>
           </tr>
           <tr>
             <td style="padding-top:10px;vertical-align: top">
-              <a href="#" style="color:#00B8FC; font-size: 14px; font-weight: 700; line-height:18px;text-decoration: none; text-transform: uppercase;">Shop now <span style="font-size: 0.75em">►</span></a>
+              <a href="#" class="light-blue cta-text bold uppercase">Shop now <span class="icon-text">►</span></a>
             </td>
           </tr>
         </mj-table>
@@ -422,12 +360,12 @@
               <img align="right" src="https://ci4.googleusercontent.com/proxy/4MnIFOs2-2euByeb7XwEbOM_vK_ZgOhj3YwNRMRkLWOr9hlvI0EBybLZ74Gm3dLSTpLEf5D4YRkRAsYje687aOwukzHCrIlIh8BDq4VeLsj_01Wk_dh81RxOtlNLYJ1zceTX6jsnCB2KelBGDdJKyN99dNaiq5EZ7oUpF1oMGWpUaL4pQBt6GlYmZXNv648=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/1aef980085160e70539dcb54c109404b0ef380f4f0aa597a7b0fb0741e78cc07.png" width="102px">
             </td>
             <td style="vertical-align: bottom;">
-              <span style="color:#000; font-family:Arial, sans-serif; font-size: 16px; line-height:20px;text-transform: uppercase;">Gaming mice</span>
+              <span class="black body-text uppercase">Gaming mice</span>
             </td>
           </tr>
           <tr>
             <td style="padding-top:10px;vertical-align: top">
-              <a href="#" style="color:#00B8FC; font-size: 14px; font-weight: 700; line-height:18px;text-decoration: none; text-transform: uppercase;">Shop now <span style="font-size: 0.75em">►</span></a>
+              <a href="#" class="light-blue cta-text bold uppercase">Shop now <span class="icon-text">►</span></a>
             </td>
           </tr>
         </mj-table>
@@ -439,12 +377,12 @@
               <img align="right" src="https://ci4.googleusercontent.com/proxy/4MnIFOs2-2euByeb7XwEbOM_vK_ZgOhj3YwNRMRkLWOr9hlvI0EBybLZ74Gm3dLSTpLEf5D4YRkRAsYje687aOwukzHCrIlIh8BDq4VeLsj_01Wk_dh81RxOtlNLYJ1zceTX6jsnCB2KelBGDdJKyN99dNaiq5EZ7oUpF1oMGWpUaL4pQBt6GlYmZXNv648=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/1aef980085160e70539dcb54c109404b0ef380f4f0aa597a7b0fb0741e78cc07.png" width="102px">
             </td>
             <td style="vertical-align: bottom;">
-              <span style="color:#000; font-family:Arial, sans-serif; font-size: 16px; line-height:20px;text-transform: uppercase;">Gaming mice</span>
+              <span class="black body-text uppercase">Gaming mice</span>
             </td>
           </tr>
           <tr>
             <td style="padding-top:10px;vertical-align: top">
-              <a href="#" style="color:#00B8FC; font-size: 14px; font-weight: 700; line-height:18px;text-decoration: none; text-transform: uppercase;">Shop now <span style="font-size: 0.75em">►</span></a>
+              <a href="#" class="light-blue cta-text bold uppercase">Shop now <span class="icon-text">►</span></a>
             </td>
           </tr>
         </mj-table>
@@ -461,12 +399,12 @@
               <img align="right" src="https://ci4.googleusercontent.com/proxy/4MnIFOs2-2euByeb7XwEbOM_vK_ZgOhj3YwNRMRkLWOr9hlvI0EBybLZ74Gm3dLSTpLEf5D4YRkRAsYje687aOwukzHCrIlIh8BDq4VeLsj_01Wk_dh81RxOtlNLYJ1zceTX6jsnCB2KelBGDdJKyN99dNaiq5EZ7oUpF1oMGWpUaL4pQBt6GlYmZXNv648=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/1aef980085160e70539dcb54c109404b0ef380f4f0aa597a7b0fb0741e78cc07.png" width="102px">
             </td>
             <td style="vertical-align: bottom;">
-              <span style="color:#000; font-family:Arial, sans-serif; font-size: 16px; line-height:20px;text-transform: uppercase;">Gaming mice</span>
+              <span class="black body-text uppercase">Gaming mice</span>
             </td>
           </tr>
           <tr>
             <td style="padding-top:10px;vertical-align: top">
-              <a href="#" style="color:#00B8FC; font-size: 14px; font-weight: 700; line-height:18px;text-decoration: none; text-transform: uppercase;">Shop now <span style="font-size: 0.75em">►</span></a>
+              <a href="#" class="light-blue cta-text bold uppercase">Shop now <span class="icon-text">►</span></a>
             </td>
           </tr>
         </mj-table>
@@ -478,12 +416,12 @@
               <img align="right" src="https://ci4.googleusercontent.com/proxy/4MnIFOs2-2euByeb7XwEbOM_vK_ZgOhj3YwNRMRkLWOr9hlvI0EBybLZ74Gm3dLSTpLEf5D4YRkRAsYje687aOwukzHCrIlIh8BDq4VeLsj_01Wk_dh81RxOtlNLYJ1zceTX6jsnCB2KelBGDdJKyN99dNaiq5EZ7oUpF1oMGWpUaL4pQBt6GlYmZXNv648=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/1aef980085160e70539dcb54c109404b0ef380f4f0aa597a7b0fb0741e78cc07.png" width="102px">
             </td>
             <td style="vertical-align: bottom;">
-              <span style="color:#000; font-family:Arial, sans-serif; font-size: 16px; line-height:20px;text-transform: uppercase;">Gaming mice</span>
+              <span class="black body-text uppercase">Gaming mice</span>
             </td>
           </tr>
           <tr>
             <td style="padding-top:10px;vertical-align: top">
-              <a href="#" style="color:#00B8FC; font-size: 14px; font-weight: 700; line-height:18px;text-decoration: none; text-transform: uppercase;">Shop now <span style="font-size: 0.75em">►</span></a>
+              <a href="#" class="light-blue cta-text bold uppercase">Shop now <span class="icon-text">►</span></a>
             </td>
           </tr>
         </mj-table>
@@ -500,12 +438,12 @@
               <img align="right" src="https://ci4.googleusercontent.com/proxy/4MnIFOs2-2euByeb7XwEbOM_vK_ZgOhj3YwNRMRkLWOr9hlvI0EBybLZ74Gm3dLSTpLEf5D4YRkRAsYje687aOwukzHCrIlIh8BDq4VeLsj_01Wk_dh81RxOtlNLYJ1zceTX6jsnCB2KelBGDdJKyN99dNaiq5EZ7oUpF1oMGWpUaL4pQBt6GlYmZXNv648=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/1aef980085160e70539dcb54c109404b0ef380f4f0aa597a7b0fb0741e78cc07.png" width="102px">
             </td>
             <td style="vertical-align: bottom;">
-              <span style="color:#000; font-family:Arial, sans-serif; font-size: 16px; line-height:20px;text-transform: uppercase;">Gaming mice</span>
+              <span class="black body-text uppercase">Gaming mice</span>
             </td>
           </tr>
           <tr>
             <td style="padding-top:10px;vertical-align: top">
-              <a href="#" style="color:#00B8FC; font-size: 14px; font-weight: 700; line-height:18px;text-decoration: none; text-transform: uppercase;">Shop now <span style="font-size: 0.75em">►</span></a>
+              <a href="#" class="light-blue cta-text bold uppercase">Shop now <span class="icon-text">►</span></a>
             </td>
           </tr>
         </mj-table>
@@ -517,12 +455,12 @@
               <img align="right" src="https://ci4.googleusercontent.com/proxy/4MnIFOs2-2euByeb7XwEbOM_vK_ZgOhj3YwNRMRkLWOr9hlvI0EBybLZ74Gm3dLSTpLEf5D4YRkRAsYje687aOwukzHCrIlIh8BDq4VeLsj_01Wk_dh81RxOtlNLYJ1zceTX6jsnCB2KelBGDdJKyN99dNaiq5EZ7oUpF1oMGWpUaL4pQBt6GlYmZXNv648=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/1aef980085160e70539dcb54c109404b0ef380f4f0aa597a7b0fb0741e78cc07.png" width="102px">
             </td>
             <td style="vertical-align: bottom;">
-              <span style="color:#000; font-family:Arial, sans-serif; font-size: 16px; line-height:20px;text-transform: uppercase;">Gaming mice</span>
+              <span class="black body-text uppercase">Gaming mice</span>
             </td>
           </tr>
           <tr>
             <td style="padding-top:10px;vertical-align: top">
-              <a href="#" style="color:#00B8FC; font-size: 14px; font-weight: 700; line-height:18px;text-decoration: none; text-transform: uppercase;">Shop now <span style="font-size: 0.75em">►</span></a>
+              <a href="#" class="light-blue cta-text bold uppercase">Shop now <span class="icon-text">►</span></a>
             </td>
           </tr>
         </mj-table>
@@ -556,8 +494,8 @@
             <td style="padding-right: 16px" width="102px">
               <img src="https://ci4.googleusercontent.com/proxy/nm6kQ0xD_cCkuqGjzwLVCjmmQze04u2nkBqtkmjzkBQD_p2T_JX26LKmyLln6GmfibcPF3a7CqEeoOhxzqo_aG4RVoBojogWy-cnbwuq3MDNrS8HkW2ilb37ZFR4flL9e_2P2OhSFFh8oUyH9W5kOXk1V2d8f20xDMrrUK05qcrbUlk6RCrO5gm4Jey9HiO5=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/707f34e268ed5c9f956b8e1f1552f7174a59228503d446989ef8dff36da14c38.jpeg" width="102px" />
             </td>
-            <td align="left" style="color:#ffffff;font-family: Arial, sans-serif; font-size: 16px; line-height: 20px;padding-top: 20px;text-transform: uppercase; vertical-align:top">
-              About<br>G Hub <span style="font-size:0.75em">►</span>
+            <td align="left" class="white body-text uppercase" style="padding-top: 20px;vertical-align:top">
+              About<br>G Hub <span class="icon-text">►</span>
             </td>
           </tr>
 
@@ -574,8 +512,8 @@
             <td style="padding-right: 16px;" width="102px">
               <img src="https://ci4.googleusercontent.com/proxy/nrw-mEy9KW5luFw8OPEfQXKMqvfbC_az7fWfDFL0_LUczHyUdDEQUC48CT_s_zp3Fr89ztD9ypIE6eAWGX0ebfXyvVtNLZKmh0IjiwhE_w0l2FpGswBqYQUVOGfP5DjYPAOpOMZxZbWgCugF-nRAnk7iWBAmmntNe7NOurcq91D1IZs-CwXBejpioRM3bOfa=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/ff67591e5b9f6cd0ad6e6b76b8da7df64872437aaad04dc5655b8480795dd212.jpeg" width="102px" />
             </td>
-            <td align="left" style="color:#ffffff;font-family: Arial, sans-serif; font-size: 16px; line-height: 20px;padding-top: 20px;text-transform: uppercase; vertical-align:top">
-              G Hub<br>Quick start <span style="font-size:0.75em">►</span>
+            <td align="left" class="white body-text uppercase" style="padding-top: 20px;vertical-align:top">
+              G Hub<br>Quick start <span class="icon-text">►</span>
             </td>
           </tr>
 

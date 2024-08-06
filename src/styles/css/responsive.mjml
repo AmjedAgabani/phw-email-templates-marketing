@@ -18,20 +18,58 @@
   }
 
   @media (min-width: 480px) {
-  .header-desktop-padding > div > table > tbody > tr > td {
-  padding: 0 40px !important;
-  }
-  }
-
-  @media (min-width: 480px) {
   .desktop-column-left-padding > table> tbody > tr > td{
   padding-left: 43px !important;
   }
   }
 
   @media (min-width: 480px) {
+  .header-text-desktop {
+  font-size: 38px;
+  line-height: 48px;
+  }
+  }
+
+  @media (min-width: 480px) {
+  .header-background-position-desktop > div > table {
+  background-size: cover !important;
+  background-position: unset !important;
+  }
+  }
+
+  @media (min-width: 480px) {
+  .header-desktop-padding > div > table > tbody > tr > td {
+  padding: 0 40px !important;
+  }
+  }
+
+  @media (min-width: 480px) {
+  .body-text-padding-desktop {
+  padding-right: 260px !important;
+  }
+  }
+
+  @media(min-width: 480px) {
+  .desktop-regulatory-padding > table > tbody > tr > td{
+  padding: 0px 120px !important
+  }
+  }
+
+  @media (min-width: 480px) {
+  .button-sizing-desktop > table {
+  width: 240px !important;
+  }
+  }
+
+  @media (min-width: 480px) {
   .sustainable-design-body-text > div {
   padding:0 40px !important;
+  }
+  }
+
+  @media (min-width: 480px) {
+  .section-text-desktop-alignment > div {
+  text-align: center !important;
   }
   }
 </mj-style>

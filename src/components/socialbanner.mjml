@@ -1,4 +1,4 @@
-<mj-section background-color="#222222" padding="0 20px">
+<mj-section mj-class="gray-bg" padding="0 20px">
   <mj-column>
     <mj-spacer height="25px" />
     <mj-table cellpadding="0" cellspacing="0" width="100%">
