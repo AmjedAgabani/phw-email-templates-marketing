@@ -1,0 +1,7 @@
+<mj-class name="blackbg" background-color="#000000" />
+<mj-class name="dark-gray-bg" background-color="#1c1c1c" />
+<mj-class name="dim-gray-bg" background-color="#676767" />
+<mj-class name="gray-bg" background-color="#222222" />
+<mj-class name="light-blue-bg" background-color="#00b8fc" />
+<mj-class name="light-gray-bg" background-color="#d3d3d3" />
+<mj-class name="white-bg" background-color="#ffffff" />

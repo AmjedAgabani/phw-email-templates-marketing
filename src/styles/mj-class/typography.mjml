@@ -1,0 +1,22 @@
+<mj-class name="bold" font-weight="700" />
+<mj-class name="uppercase" text-transform="uppercase" />
+
+<mj-class name="header-text" font-family="Arial, sans-serif" font-size="40px" line-height="48px" />
+
+<mj-class name="large-title-text" font-family="Arial, sans-serif" font-size="34px" line-height="36px" />
+
+<mj-class name="title-text" font-family="Arial, sans-serif" font-size="28px" line-height="28px" />
+
+<mj-class name="subheader-text" font-family="Arial, sans-serif" font-size="24px" line-height="26px" />
+
+<mj-class name="statement-text" font-family="Arial, sans-serif" font-size="16px" line-height="25px" />
+
+<mj-class name="body-text" font-family="Arial, sans-serif" font-size="16px" line-height="20px" />
+
+<mj-class name="button-text" font-family="Arial, sans-serif" font-size="14px" />
+
+<mj-class name="cta-text" font-family="Arial, sans-serif" font-size="14px" line-height="18px" />
+
+<mj-class name="navbar-text" font-family="Arial, sans-serif" font-size="14px" line-height="18px" />
+
+<mj-class name="regulatory-text" font-family="Arial, sans-serif" font-size="12px" line-height="16px" />

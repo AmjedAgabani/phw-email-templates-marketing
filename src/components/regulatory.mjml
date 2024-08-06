@@ -1,0 +1,51 @@
+<mj-section background-color="#ffffff" css-class="hidden-mobile" padding="0 20px">
+  <mj-column>
+    <mj-text align="center" mj-class="black navbar-text uppercase">
+      <a href="#" style="color:inherit-color; padding:0 15px; border-right:2px solid #000; text-decoration: none">Privacy + Security</a>
+      <a href="#" style="color:inherit-color; padding:0 15px; border-right:2px solid #000; text-decoration: none">Preferences</a>
+      <a href="#" style="color:inherit-color; padding:0 15px; border-right:2px solid #000; text-decoration: none">Contact</a>
+      <a href="#" style="color:inherit-color; padding:0 15px; text-decoration: none">Terms of use</a>
+    </mj-text>
+  </mj-column>
+</mj-section>
+
+<mj-section background-color="#ffffff" css-class="hidden-desktop" padding="0 20px">
+  <mj-column>
+    <mj-text align="center" color="#000" font-size="14px" line-height="18px" padding="15px" text-transform="uppercase">
+      <a href="#" style="color:inherit-color; text-decoration: none;">Privacy + Security</a>
+    </mj-text>
+  </mj-column>
+  <mj-column>
+    <mj-text align="center" color="#000" font-size="14px" line-height="18px" padding="15px" text-transform="uppercase">
+      <a href="#" style="color:inherit-color; text-decoration: none;">Preferences</a>
+    </mj-text>
+  </mj-column>
+  <mj-column>
+    <mj-text align="center" color="#000" font-size="14px" line-height="18px" padding="15px" text-transform="uppercase">
+      <a href="#" style="color:inherit-color; text-decoration: none;">Contact</a>
+    </mj-text>
+  </mj-column>
+  <mj-column>
+    <mj-text align="center" color="#000" font-size="14px" line-height="18px" padding="15px" text-transform="uppercase">
+      <a href="#" style="color:inherit-color; text-decoration: none;">Terms of use</a>
+    </mj-text>
+  </mj-column>
+</mj-section>
+
+<mj-section background-color="#ffffff" css-class="desktop-regulatory-padding" padding="0 20px">
+  <mj-column>
+    <mj-spacer height="20px" />
+    <mj-text align="center" mj-class="black regulatory-text">
+      © 2023 Logitech. All rights reserved. The Logitech G logo and other Logitech marks are owned by Logitech and may be registered.
+    </mj-text>
+    <mj-spacer height="20px" />
+    <mj-text align="center" mj-class="black regulatory-text">
+      Logitech Americas Headquarters.<br>7700 Gateway Blvd. Newark, CA 94560 USA
+    </mj-text>
+    <mj-spacer height="20px" />
+    <mj-text align="center" mj-class="black regulatory-text">
+      You are receiving this e-mail because our records indicate you requested that we send information to <a href="#">name@mail.com</a> regarding special offers, newsletters, product information and updates from Logitech G. To be removed from our mailing list, <a href="#">click here</a>.
+    </mj-text>
+    <mj-spacer height="32px" />
+  </mj-column>
+</mj-section>

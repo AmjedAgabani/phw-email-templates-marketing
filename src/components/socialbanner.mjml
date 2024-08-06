@@ -1,0 +1,62 @@
+<mj-section background-color="#222222" padding="0 20px">
+  <mj-column>
+    <mj-spacer height="25px" />
+    <mj-table cellpadding="0" cellspacing="0" width="100%">
+      <tbody>
+        <tr>
+          <td align="center" valign="middle">
+            <table cellpadding="0" cellspacing="0" style="max-width:640px" width="100%">
+              <tbody>
+                <tr>
+                  <!-- twitch social icon -->
+                  <td align="center" valign="middle" width="12.5%">
+                    <a href="#">
+                      <img src="https://ci4.googleusercontent.com/proxy/0AjlHbKRnGABHDqqyAHzO_nqofZ1RkdP-w5zK90YmQ3du81HiOK93LheXlvlZGe4ohnSBQnis-KyuWYql-QE1kTN-yV502lTnWQS5HMrT6YeuAxBycdGOvBkvkpiorBVPBa8v6QevaQBG78EeoDOpbKE5npnRgHbZBrgEbRcBw=s0-d-e1-ft#https://logitech-mkt-prod1-res.adobe-campaign.com/res/logitec_mkt_prod1/78b51b59e957604a9ce820026e449520.png" style="display:block;" width="28" />
+                    </a>
+                  </td>
+                  <!-- twitter social icon -->
+                  <td align="center" valign="middle" width="12.5%">
+                    <a href="#">
+                      <img src="https://ci4.googleusercontent.com/proxy/IaoFtJ1fdqf9mn9WAwLE6WO4YtBksrrOfyHbFN56bO9LiJ5RieCqCoXftvT4VjHwHJhaSBYEzDJRCxpBKmt_I9WtZ8eb9MxBMobWYWOkpYekPefXcTn7UG723aq_w0wSteGMx9JW-_93VRyzoMSDP_syLeSdXPCn6wW1PxPO3Q=s0-d-e1-ft#https://logitech-mkt-prod1-res.adobe-campaign.com/res/logitec_mkt_prod1/f964ef3aba60d0f344c8d626099ad9df.png" style="display:block" width="28" />
+                    </a>
+                  </td>
+                  <!-- fb social icon -->
+                  <td align="center" valign="middle" width="12.5%">
+                    <a href="#">
+                      <img src="https://ci5.googleusercontent.com/proxy/UcOHNI4eTwmo5y3pFzhOwfT3xb0e8LTu6FCipaHm1PuaHmEkR52NyFhNTVm7_5Fp4KvVkn7t2oejs0v5rL4zd4FhGHUiQH044dMxCnpUth1xQyFTAKx5ei58MnNHSrtNaz5-K81EzzjBNFvknKAk5X-ZA0EjZGIUHhqLrY72SA=s0-d-e1-ft#https://logitech-mkt-prod1-res.adobe-campaign.com/res/logitec_mkt_prod1/d23481ff2121381b86ec49debcfd7fe0.png" style="display:block" width="13" />
+                    </a>
+                  </td>
+                  <!-- insta social icon -->
+                  <td align="center" valign="middle" width="12.5%">
+                    <a href="#">
+                      <img src="https://ci3.googleusercontent.com/proxy/aH4eBYCLu2uPLl3-oobw_Uq9Wih0Nfdnus6jyWFQ1PGxbkIrzN2eODIoYhDeHh_QRj-maTGT2VVF6MFQ8CtJdoXIf66a4aIjo7ILM4se6Ee-isrgC_gXb0S3Ik1xAjOwgQOo745n6bOggkc-_7YlugOlGRVUI3gvSBK2u5QfiQ=s0-d-e1-ft#https://logitech-mkt-prod1-res.adobe-campaign.com/res/logitec_mkt_prod1/548b4cbaf0d9a2b9f0d0f82cbc384c43.png" style="display:block" width="28" />
+                    </a>
+                  </td>
+                  <!-- tiktok social icon -->
+                  <td align="center" valign="middle" width="12.5%">
+                    <a href="#">
+                      <img src="https://ci4.googleusercontent.com/proxy/KEj_LnapeTFTcvMOCmw_1WHkvwWB1BkT9qnapCCKENrc3uw3R_gGYuZhV5Apgqmcjg-NKV3VJut1rHP6HrYLsmbyRB0dT0U1e9lsdHgTBmTg9OhDsSae2LOCV3QnZstxSppWGYG5kI6KuS5olKwbfgsVm3LRc76VTrhwd5OlXg=s0-d-e1-ft#https://logitech-mkt-prod1-res.adobe-campaign.com/res/logitec_mkt_prod1/4d28aa6bffd2ae4cd21a7118f55dad05.png" style="display:block" width="25" />
+                    </a>
+                  </td>
+                  <!-- tiktok social icon -->
+                  <td align="center" valign="middle" width="12.5%">
+                    <a href="#">
+                      <img src="https://ci6.googleusercontent.com/proxy/SI9R476AFiXoApJoVCYOJcjJ5tQEb8ExKntXuyygmrhDCQeiQ7VX9OQZjqq1kBobRVovVhlPq2W5GP2RD9eDkuYnzEAXsMpsP78_xDt3WjmkeyOeFRRnnZQPJz-NxIdGR2wP-j3oTWppvnxlhFlCrAqanUCwOl2PanhzVJSFsw=s0-d-e1-ft#https://logitech-mkt-prod1-res.adobe-campaign.com/res/logitec_mkt_prod1/326a18a504fb19c4559530dc87b44fea.png" style="display:block" width="26" />
+                    </a>
+                  </td>
+                  <!-- youtube social icon -->
+                  <td align="center" valign="middle" width="12.5%">
+                    <a href="#">
+                      <img src="https://ci5.googleusercontent.com/proxy/_GozadGPg_NlPeKa15Qq6k6RHvUlUB8QwvSl4FOlG7_-Fby82LNY9FhPGlZxUXiG5al8ZNjzXpq79a1DlfwbYGabC3COMx1AWu052AWbZEDAuf-osZ7RG1q-eaXFeZyuwIgZy1mWX3RML43DyRcd_Sxg5VEAnAhRR-1K2inJ8w=s0-d-e1-ft#https://logitech-mkt-prod1-res.adobe-campaign.com/res/logitec_mkt_prod1/59a3e48909246b7fc13bbc06f04546f3.png" style="display:block" width="28" />
+                    </a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </mj-table>
+    <mj-spacer height="25px" />
+  </mj-column>
+</mj-section>
