@@ -1,3 +1,12 @@
+<!-- 
+  Requires 
+../../styles/css/colors.mjml 
+../../styles/css/responsive.mjml 
+../../styles/mj-class/colors.mjml 
+../../styles/mj-class/bgcolors.mjml 
+../../styles/mj-class/typography.mjml 
+-->
+
 <mj-section css-class="hidden-mobile" mj-class="white-bg" padding="0 20px">
   <mj-column>
     <mj-text align="center" mj-class="black navbar-text uppercase">

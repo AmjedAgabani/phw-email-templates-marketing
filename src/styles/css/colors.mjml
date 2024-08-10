@@ -3,16 +3,15 @@
     color: #000000;
   }
 
+  .inherit-color {
+    color: inherit;
+  }
+
   .light-blue {
     color: #00B8FC;
   }
 
   .white {
     color: #ffffff;
-  }
-
-
-  .inherit-color {
-    color: inherit;
   }
 </mj-style>

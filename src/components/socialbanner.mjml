@@ -1,3 +1,8 @@
+<!-- 
+  Requires 
+../../styles/mj-class/bgcolors.mjml 
+-->
+
 <mj-section mj-class="gray-bg" padding="0 20px">
   <mj-column>
     <mj-spacer height="25px" />
