@@ -11,43 +11,6 @@
     <mj-include path="../../styles/css/typography.mjml" />
     <mj-preview>Preview</mj-preview>
     <mj-title>Title</mj-title>
-    <mj-style>
-      @media (min-width: 480px) {
-      .hero-image-background-position-desktop > div > table {
-      background-size: cover !important;
-      background-position: unset !important;
-      }
-      }
-
-      @media (min-width: 480px) {
-      .hero-desktop-padding > div > table > tbody > tr > td {
-      padding: 0 40px !important;
-      }
-      }
-      @media (min-width: 480px) {
-      .hero-body-text-padding-desktop {
-      padding-right: 260px !important;
-      }
-      }
-
-      @media (min-width: 480px) {
-      .button-sizing-desktop > table > tbody > tr > td > a {
-      width: 240px !important;
-      }
-      }
-
-      @media (min-width: 480px) {
-      .about-g-hub-desktop-padding > table> tbody > tr > td{
-      padding-left: 43px !important;
-      }
-      }
-
-      @media (min-width: 480px) {
-      .collect-emails-desktop-image > div > table {
-      background: url("https://ci4.googleusercontent.com/proxy/XZPCRYXxu3zYPhRgFFDKqyLu-CcpqtMqPkr5giMqpPkadx49esf6gPTPPWhUXUwNOziVqz3-JHY8MujGJuzK3cYg-dr3w14eSpifK7ju3V7rDcUec-aJtAru3vwILvHXGnxvsyNmI5gyXTGukp8M=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/8a6da6d7c2694b788425e6d437ddca1a.png") !important;
-      }
-      }
-    </mj-style>
   </mj-head>
 
   <mj-body mj-class="dim-gray-bg" width="640px">

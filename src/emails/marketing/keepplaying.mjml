@@ -1,0 +1,20 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all padding="0" />
+      <mj-include path="../../styles/mj-class/bgcolors.mjml" />
+      <mj-include path="../../styles/mj-class/colors.mjml" />
+      <mj-include path="../../styles/mj-class/typography.mjml" />
+    </mj-attributes>
+    <mj-include path="../../styles/css/colors.mjml" />
+    <mj-include path="../../styles/css/responsive.mjml" />
+    <mj-include path="../../styles/css/typography.mjml" />
+    <mj-preview>Preview</mj-preview>
+    <mj-title>Title</mj-title>
+  </mj-head>
+
+  <mj-body>
+
+  </mj-body>
+
+</mjml>
