@@ -1,4 +1,4 @@
-<mj-class name="blackbg" background-color="#000000" />
+<mj-class name="black-bg" background-color="#000000" />
 <mj-class name="dark-gray-bg" background-color="#1c1c1c" />
 <mj-class name="dim-gray-bg" background-color="#676767" />
 <mj-class name="gray-bg" background-color="#222222" />
