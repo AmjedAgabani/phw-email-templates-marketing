@@ -53,6 +53,8 @@
 
   <mj-body mj-class="dim-gray-bg" width="640px">
 
+    <!-- Hero -->
+
     <mj-section mj-class="dark-gray-bg" background-position-x="12px" background-position-y="110px" background-position="left" background-repeat="no-repeat" background-size="600px" background-url="https://ci6.googleusercontent.com/proxy/Ql-gMQwKuNZqGcI7P-qojo96ZENkIfD0K0MMTthKa1HlnuYyL3YydbQXFKcA4aaGtcRe8glEZW8smG3oDpHOfQDi3IV3YIYNaYe5AJQnYnBcTmZxihvz295lkFC4RPne3yH2AKjJb7QkAMnfS3wSVuD0SqCV-k8-Hz_3LXk-xrPuiJzrqrG11y_7XXifoZ8=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/a8d5004c7ab24e70981c7463a592173946001651d17d5e479accba39fab65987.png" css-class="hero-image-background-position-desktop hero-desktop-padding" padding="0 20px">
       <mj-column>
         <mj-spacer css-class="hidden-desktop" height="34px" />
@@ -81,7 +83,7 @@
       </mj-column>
     </mj-section>
 
-    <!-- 2nd row we are logitech -->
+    <!-- We are Logitech -->
 
     <mj-section mj-class="white-bg">
       <mj-column width="367px">
@@ -108,7 +110,7 @@
       </mj-column>
     </mj-section>
 
-    <!-- 3rd row we are logitech -->
+    <!-- Zero Opposition -->
 
     <mj-section direction="rtl">
       <mj-column width="380px">
@@ -135,7 +137,7 @@
       </mj-column>
     </mj-section>
 
-    <!-- 4nd row unlock the possibilities -->
+    <!-- Unlock possibilities -->
 
     <mj-section mj-class="white-bg">
       <mj-column width="367px">
@@ -162,7 +164,7 @@
       </mj-column>
     </mj-section>
 
-    <!-- 5th row all are welcome -->
+    <!-- All welcome -->
 
     <mj-section direction="rtl">
       <mj-column width="380px">
@@ -189,8 +191,8 @@
       </mj-column>
     </mj-section>
 
+    <!-- Shop top tier gear -->
 
-    <!-- shop top tier gear -->
     <mj-section mj-class="white-bg" padding="0 20px">
       <mj-column>
         <mj-spacer height="47px" />
@@ -443,7 +445,7 @@
       </mj-column>
     </mj-section>
 
-    <!-- total gear control -->
+    <!-- Total gear control -->
     <mj-section mj-class="dark-gray-bg" css-class="desktop-padding" padding="0 20px">
       <mj-column>
         <mj-spacer height="46px" />
@@ -483,7 +485,7 @@
       </mj-column>
     </mj-section>
 
-    <!-- sustainable design -->
+    <!-- Sustainable design -->
 
     <mj-section>
       <mj-column>
@@ -509,7 +511,7 @@
       </mj-column>
     </mj-section>
 
-    <!-- collect emails -->
+    <!-- Collect emails -->
 
     <mj-section text-align="left" direction="rtl" css-class="collect-emails-desktop-image" mj-class="gray-bg" background-url="https://ci3.googleusercontent.com/proxy/qW5K09NLeeFue-4E4CKqGJORBON-LlqIIE1jdf-rdUWDIULBKmi4m4RKLhHQlNws4FAr81yhrCRSWxRwwx5kqh5xalONsxJn0DfwkBNWk9FJiOTWObBR-MjCoADdNuG2XbhRHLTFhx1JBLlK3rBs=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/a8aafad756a1e03f753b056ec7872f80.png" background-repeat="no-repeat" background-size="100%" css-class="desktop-padding" padding="0 20px">
       <mj-column>
@@ -539,15 +541,15 @@
       </mj-column>
     </mj-section>
 
-    <!--social links -->
+    <!-- Social links -->
 
     <mj-include path="../../components/socialbanner.mjml" />
 
-    <!-- logitech logo footer -->
+    <!-- Logitech logo footer -->
 
     <mj-include path="../../components/footerlogo.mjml" />
 
-    <!-- regulatory -->
+    <!-- Regulatory -->
 
     <mj-include path="../../components/regulatory.mjml" />
 
