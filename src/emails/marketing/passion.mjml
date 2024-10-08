@@ -263,7 +263,7 @@
               <img src="https://ci3.googleusercontent.com/meips/ADKq_NbmqiY15f8GkI686bbCCdccoRHT4edJjvYE43rNexarUqPBYJd6dwS4jvFtOkTJvdc6vlC4Mk12wQTq5YbUaERlUut6vWPFUmhym0g8wGKLtaeufT4ycpt8G8jjwOk1ZbrDb47ocUdw-RPArRHsTaekPQ=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/fc5033313f42a3ef6f1df7c11fe368ef.png" height="50" style="display:block; vertical-align: top;" width="50">
             </td>
             <td class="black body-text" style="padding-left: 20px; padding-right: 25px">
-              Choose tactile, linear, or clicky with low-profile or standard-height switches.<span class="hidden-desktop"><br></span><a href="#" class="light-blue bold uppercase" style="text-decoration: none;">More on mechanical switches <span class="icon-text">►</span></a>
+              Choose tactile, linear, or clicky with low-profile or standard-height switches. <span class="hidden-desktop"><br></span><a href="#" class="light-blue bold uppercase" style="text-decoration: none;">More on mechanical switches <span class="icon-text">►</span></a>
           </tr>
         </mj-table>
         <mj-spacer css-class="hidden-desktop" height="20px" />
@@ -425,7 +425,7 @@
               <img src="https://ci3.googleusercontent.com/meips/ADKq_NYnteMwuE2P7TUYxyly9tEn8Bp6I2n2PvQVC2Wif2QjUoISk7sMDCDvGjHt_eTYp8H-n0FjVjmk-1BFsDpYdUJ0RFOMHr2wHveL9tB86hOzqjOj1N80atggDENErTYWhLL8obQ4cjubqd3jOTxn1Kw21A=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/aa6a48b9d17794b292fd7695dd9cc7d7.png" height="50" style="display:block; vertical-align: top;" width="50">
             </td>
             <td class="white body-text" style="padding-left: 20px; padding-right: 25px">
-              See it all in action at the 2019 Logitech G Challenge Eracing Grand Finals <span class="hidden-desktop"><br></span><a href="#" class="light-blue bold uppercase" style="text-decoration: none;">Watch the video <span class="icon-text">►</span></a>
+              See it all in action at the 2019 Logitech G Challenge Eracing Grand Finals. <span class="hidden-desktop"><br></span><a href="#" class="light-blue bold uppercase" style="text-decoration: none;">Watch the video <span class="icon-text">►</span></a>
           </tr>
         </mj-table>
         <mj-spacer css-class="hidden-desktop" height="20px" />
@@ -439,9 +439,50 @@
       </mj-column>
     </mj-section>
 
-    <!-- Space flight farm trio -->
 
-    <mj-section mj-class="dark-gray-bg" padding="0">
+    <!-- Gaming Peripherals Trio Mobile -->
+
+    <mj-section css-class="hidden-mobile" mj-class="gray-bg">
+      <mj-column>
+        <mj-divider border-color="#ffffff" border-style="solid" border-width="1px" />
+        <mj-spacer height="30px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="hidden-mobile" mj-class="gray-bg">
+      <mj-column>
+        <mj-image href="https://www.google.co.uk" src="https://ci3.googleusercontent.com/meips/ADKq_NarV5jKZ6G332AdAOp6ILwugWc56XPpJ7RMwmitBWyg1Bqug9WMQyjRZKZQao-ULVMDSIroAfGuY3KONP0GKevoDb4YwO3YSgZH0q4SXhRsB_kLYu_HrdRhub7ouvvjT83vds1e9tPudrG0bzFtjLk_hA=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/d33512f2038e7851d2f3564fbc622842.jpg" width="100px" />
+        <mj-spacer height="30px" />
+        <mj-text align="center" mj-class="cta-text bold uppercase">
+          <a href="https://www.google.co.uk" class="white" style="text-decoration: none;">Shop space <span class="icon-text">►</span></a>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image href="https://www.google.co.uk" src="https://ci3.googleusercontent.com/meips/ADKq_NaRJ3qM_mZ7by19KJrqucGhbL9VyrN00L6UCWLu10d6xsFo3nwWhw1tyOXG4_gnwA6pRjt1s81hJKi_y9_onJOENZWUf1Jar27sOJCLyDvXAmQ1Xqd37AL0rXMFxjQ-8fbrQL2cpKCTom78Zp7qvEAtwg=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/41b34e9b2bc136f9e409c92d355653e5.jpg" width="100px" />
+        <mj-spacer height="30px" />
+        <mj-text align="center" mj-class="white cta-text bold uppercase">
+          <a href="https://www.google.co.uk" class="white" style="text-decoration: none;">Shop flight <span class="icon-text">►</span></a>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image href="https://www.google.co.uk" src="https://ci3.googleusercontent.com/meips/ADKq_NZ58cFwJFNSUmn07d54rpVXYekpa8wultbXt2L6FTRxVgQHV9RtWZYB9urzKMqnJyytxi8qm9GOr_goykL_nkzk19rYzlhvS-dP2YqQZ2zJVzhdfvlwrlEER3K5kOmraYHI2dglMbrxq9QOiQNJycXsrg=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/bab521c660c356a8e66561966ce3c5be.jpg" width="100px" />
+        <mj-spacer height="30px" />
+        <mj-text align="center" mj-class="white cta-text bold uppercase">
+          <a href="https://www.google.co.uk" class="white" style="text-decoration: none;">Shop farm <span class="icon-text">►</span></a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="hidden-mobile" mj-class="gray-bg">
+      <mj-column>
+        <mj-spacer height="30px" />
+        <mj-divider border-color="#ffffff" border-style="solid" border-width="1px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Gaming Peripherals Trio Mobile -->
+
+    <mj-section css-class="hidden-desktop" mj-class="dark-gray-bg" padding="0">
       <mj-column width="100%">
         <mj-spacer height="40px" />
         <mj-image href="https://www.google.co.uk" src="https://ci3.googleusercontent.com/meips/ADKq_NarV5jKZ6G332AdAOp6ILwugWc56XPpJ7RMwmitBWyg1Bqug9WMQyjRZKZQao-ULVMDSIroAfGuY3KONP0GKevoDb4YwO3YSgZH0q4SXhRsB_kLYu_HrdRhub7ouvvjT83vds1e9tPudrG0bzFtjLk_hA=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/d33512f2038e7851d2f3564fbc622842.jpg" />
