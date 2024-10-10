@@ -1,17 +1,17 @@
 <mj-style>
   .black {
-    color: #000000;
+    color: #000000 !important;
   }
 
   .inherit-color {
-    color: inherit;
+    color: inherit !important;
   }
 
   .light-blue {
-    color: #00B8FC;
+    color: #00B8FC !important;
   }
 
   .white {
-    color: #ffffff;
+    color: #ffffff !important;
   }
 </mj-style>
