@@ -65,11 +65,11 @@
       <mj-column>
         <mj-spacer css-class="hidden-desktop" height="40px" />
         <mj-spacer css-class="hidden-mobile" height="40px" />
-        <mj-image align="left" href="https://www.google.co.uk" src="https://ci6.googleusercontent.com/proxy/mr64QVxTKw635oejxEnfbpnGC52I-NW-qbp5l6nnll5VpBmBMTXq-tKHR7K6f_4gez_6cqiD628CRTRZ9u00SK624zmSCd_P1CmG4nXRXtXmJnQJE7cIYvaaLRpb9b-L7YIckkm7icL2JJjSkjAe=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/610fa466b823e3868d26fa038d81c9b5.png" width="113px" />
+        <mj-image align="left" href="https://www.google.co.uk" src="https://i.imgur.com/ulOCc72.png" width="113px" />
         <mj-spacer css-class="hidden-desktop" height="42px" />
         <mj-spacer css-class="hidden-mobile" height="40px" />
         <mj-text mj-class="white title-text uppercase">
-          <span class="header-text-desktop">Gaming is<br class="hidden-mobile"> our passion</span>
+          <span class="header-text-desktop">Building is<br class="hidden-mobile"> our passion</span>
         </mj-text>
         <mj-spacer css-class="hidden-desktop" height="30px" />
         <mj-spacer css-class="hidden-mobile" height="25px" />
@@ -77,12 +77,12 @@
         <mj-spacer css-class="hidden-desktop" height="30px" />
         <mj-spacer css-class="hidden-mobile" height="25px" />
         <mj-text mj-class="white subheader-text uppercase">
-          What's your game?
+          What’s your project?
         </mj-text>
         <mj-spacer css-class="hidden-desktop" height="20px" />
         <mj-spacer css-class="hidden-mobile" height="10px" />
         <mj-text css-class="hero-body-text-padding-desktop" mj-class="white body-text">
-          Logitech G obsesses over every detail to give you winning gaming equipment, from mice to keyboards, headsets, racing wheels and controllers.
+          Pioneer Hardware World obsesses over every detail to provide you with top-tier tools and equipment, from power tools to hand tools, safety gear, and accessories.
         </mj-text>
         <mj-spacer css-class="hidden-desktop" height="90px" />
         <mj-spacer css-class="hidden-mobile" height="165px" />
@@ -95,7 +95,7 @@
         <mj-spacer css-class="hidden-desktop" height="50px" />
         <mj-spacer css-class="hidden-mobile" height="40px" />
         <mj-text align="left" mj-class="black large-title-text uppercase">
-          Advanced gaming gear
+          Advanced Hardware Gear
         </mj-text>
         <mj-spacer css-class="hidden-desktop" height="50px" />
         <mj-spacer css-class="hidden-mobile" height="20px" />
@@ -112,7 +112,7 @@
         <mj-spacer css-class="hidden-desktop" height="25px" />
         <mj-spacer css-class="hidden-mobile" height="40px" />
         <mj-text mj-class="black subheader-text uppercase">
-          Gaming<br class="hidden-mobile"> mice
+          Power<br class="hidden-mobile"> Tools
         </mj-text>
         <mj-spacer css-class="hidden-desktop" height="15px" />
         <mj-spacer css-class="hidden-mobile" height="10px" />
@@ -120,12 +120,12 @@
         <mj-spacer css-class="hidden-desktop" height="20px" />
         <mj-spacer css-class="hidden-mobile" height="16px" />
         <mj-text mj-class="black body-text" padding-right="40px">
-          Award-winning wireless and wired gaming mice, from sensors to shape.
+          Award-winning power tools designed for precision and performance.
         </mj-text>
         <mj-spacer css-class="hidden-desktop" height="20px" />
         <mj-spacer css-class="hidden-mobile" height="30px" />
         <mj-button align="left" border-radius="3px" css-class="button-sizing" mj-class="white light-blue-bg button-text uppercase" height="55px" href="https://www.google.co.uk">
-          Shop mice
+          Shop power tools
         </mj-button>
         <mj-spacer css-class="hidden-desktop" height="25px" />
       </mj-column>
@@ -142,7 +142,7 @@
               <img src="https://ci3.googleusercontent.com/meips/ADKq_NbKddQo20alxYIvJ32W9jjuiZ8Ev466bs8RpUd7m7mdvZke2shOM1TG-hdmSV9gJob8_TCsR_9dZ8ZlMSVC6xLPQhMUi97xhxegd9exdwG5Q2rWUUGysHbforrJsRF0rIYyr0qKcCEaEkrj4exL0b6jig=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/cdce7cb72d1645da3b3a6666b1cc036f.png" height="50" style="display:block; vertical-align: top;" width="50">
             </td>
             <td class="black body-text" style="padding-left: 20px; padding-right: 25px">
-              The wireless breakthrough, LIGHTSPEED®, is here with 1 ms report rate and robust lag-free connectivity. <span class="hidden-desktop"><br></span><a href="#" class="light-blue bold uppercase" style="text-decoration: none;">More <span class="icon-text">►</span></a>
+              Experience cutting-edge technology that enhances your work efficiency and reduces fatigue. <span class="hidden-desktop"><br></span><a href="#" class="light-blue bold uppercase" style="text-decoration: none;">More <span class="icon-text">►</span></a>
           </tr>
         </mj-table>
         <mj-spacer css-class="hidden-desktop" height="20px" />
@@ -166,7 +166,7 @@
         <mj-spacer css-class="hidden-desktop" height="25px" />
         <mj-spacer css-class="hidden-mobile" height="40px" />
         <mj-text mj-class="white subheader-text uppercase">
-          Gaming mouse pads
+          Hand Tools
         </mj-text>
         <mj-spacer css-class="hidden-desktop" height="15px" />
         <mj-spacer css-class="hidden-mobile" height="10px" />
@@ -174,12 +174,12 @@
         <mj-spacer css-class="hidden-desktop" height="20px" />
         <mj-spacer css-class="hidden-mobile" height="16px" />
         <mj-text mj-class="white body-text">
-          Go whole-desktop to minimal size with surfaces engineered for maximum consistency and stability.
+          From wrenches to screwdrivers, we have the right tools for every job.
         </mj-text>
         <mj-spacer css-class="hidden-desktop" height="20px" />
         <mj-spacer css-class="hidden-mobile" height="30px" />
         <mj-button align="left" border-radius="3px" mj-class="black light-blue-bg button-text uppercase" css-class="button-sizing" height="55px" href="https://www.google.co.uk">
-          Shop mouse pads
+          Shop Hand Tools
         </mj-button>
         <mj-spacer css-class="hidden-desktop" height="25px" />
       </mj-column>
@@ -196,7 +196,7 @@
               <img src="https://ci3.googleusercontent.com/meips/ADKq_Nb7RYgtwUNnWLdAO5cFcgAGmf1BKrLcXdx1HRrwe0X0Xk2oXwF45gJJN6hHnD0xwrQWVVKJVBXe1Ynd3Dl-bXUzad041TScyU2ySkOfxTEyZc3EQquIJPb-AxlxpeqEHkfNQr-9t7UJ2i5m2Mze8gGdfg=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/dbae0bcf39026fa54326156ec6d4f2af.png" height="50" style="display:block; vertical-align: top;" width="50">
             </td>
             <td class="white body-text" style="padding-left: 20px; padding-right: 25px">
-              With POWERPLAY, you'll never plug and charge your compatible LIGHTSPEED® wireless mouse again. <span class="hidden-desktop"><br></span><a href="#" class="light-blue bold uppercase" style="text-decoration: none;">More <span class="icon-text">►</span></a>
+              Ergonomically designed for comfort and ease of use. <span class="hidden-desktop"><br></span><a href="#" class="light-blue bold uppercase" style="text-decoration: none;">More <span class="icon-text">►</span></a>
           </tr>
         </mj-table>
         <mj-spacer css-class="hidden-desktop" height="20px" />
@@ -220,7 +220,7 @@
         <mj-spacer css-class="hidden-desktop" height="25px" />
         <mj-spacer css-class="hidden-mobile" height="40px" />
         <mj-text mj-class="black subheader-text uppercase">
-          Gaming keyboards
+          Tool Accessories
         </mj-text>
         <mj-spacer css-class="hidden-desktop" height="15px" />
         <mj-spacer css-class="hidden-mobile" height="10px" />
@@ -228,12 +228,12 @@
         <mj-spacer css-class="hidden-desktop" height="20px" />
         <mj-spacer css-class="hidden-mobile" height="16px" />
         <mj-text mj-class="black body-text">
-          Speed, accuracy, and durability for high performance gaming.
+          Maximize your tool's potential with our range of high-quality accessories.
         </mj-text>
         <mj-spacer css-class="hidden-desktop" height="20px" />
         <mj-spacer css-class="hidden-mobile" height="30px" />
         <mj-button align="left" border-radius="3px" mj-class="white light-blue-bg button-text uppercase" css-class="button-sizing" height="55px" href="https://www.google.co.uk">
-          Shop keyboards
+          Shop Accessories
         </mj-button>
         <mj-spacer css-class="hidden-desktop" height="25px" />
       </mj-column>
@@ -250,7 +250,7 @@
               <img src="https://ci3.googleusercontent.com/meips/ADKq_NbmqiY15f8GkI686bbCCdccoRHT4edJjvYE43rNexarUqPBYJd6dwS4jvFtOkTJvdc6vlC4Mk12wQTq5YbUaERlUut6vWPFUmhym0g8wGKLtaeufT4ycpt8G8jjwOk1ZbrDb47ocUdw-RPArRHsTaekPQ=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/fc5033313f42a3ef6f1df7c11fe368ef.png" height="50" style="display:block; vertical-align: top;" width="50">
             </td>
             <td class="black body-text" style="padding-left: 20px; padding-right: 25px">
-              Choose tactile, linear, or clicky with low-profile or standard-height switches. <span class="hidden-desktop"><br></span><a href="#" class="light-blue bold uppercase" style="text-decoration: none;">More on mechanical switches <span class="icon-text">►</span></a>
+              Discover innovative solutions to enhance your workflow. <span class="hidden-desktop"><br></span><a href="#" class="light-blue bold uppercase" style="text-decoration: none;">More <span class="icon-text">►</span></a>
           </tr>
         </mj-table>
         <mj-spacer css-class="hidden-desktop" height="20px" />
@@ -274,7 +274,7 @@
         <mj-spacer css-class="hidden-desktop" height="25px" />
         <mj-spacer css-class="hidden-mobile" height="40px" />
         <mj-text mj-class="white subheader-text uppercase">
-          Gaming audio
+          Safety Gear
         </mj-text>
         <mj-spacer css-class="hidden-desktop" height="15px" />
         <mj-spacer css-class="hidden-mobile" height="10px" />
@@ -282,12 +282,12 @@
         <mj-spacer css-class="hidden-desktop" height="20px" />
         <mj-spacer css-class="hidden-mobile" height="16px" />
         <mj-text mj-class="white body-text">
-          Get into the game with immersive sound, crystal-clear mics, customizable EQ and optional 7.1 surround.
+          Stay safe while you work with our advanced safety equipment.
         </mj-text>
         <mj-spacer css-class="hidden-desktop" height="20px" />
         <mj-spacer css-class="hidden-mobile" height="30px" />
         <mj-button align="left" border-radius="3px" mj-class="black light-blue-bg button-text uppercase" css-class="button-sizing" height="55px" href="https://www.google.co.uk">
-          Shop audio
+          Shop Safety Gear
         </mj-button>
         <mj-spacer css-class="hidden-desktop" height="25px" />
       </mj-column>
@@ -304,7 +304,7 @@
               <img src="https://ci3.googleusercontent.com/meips/ADKq_NZ3tDspUMRhEsUCh07TlrKXT3llXIPGk7JEiewX3m3WvLHC9zVkfbKIlMu3snaperNAHRF4amJmGxsB4UQEAeeEL0wFjzSpoEJ08TT4w-4rjei75w1ifmcm4WX07S6ozSl9_w9e1s95tITrixqJbVZ0Xw=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/125fe97b88ec5d7365b69bafe93072e0.png" height="50" style="display:block; vertical-align: top;" width="50">
             </td>
             <td class="white body-text" style="padding-left: 20px; padding-right: 25px">
-              Blue VO!CE microphone technology and filters reduce noise for a richer, cleaner, more professional sound. <br><a href="#" class="light-blue bold uppercase" style="text-decoration: none;">More on Blue Vo!ce <span class="icon-text">►</span></a>
+              Designed to protect you on the job, ensuring you can focus on your tasks. <a href="#" class="light-blue bold uppercase" style="text-decoration: none;">More <span class="icon-text">►</span></a>
           </tr>
         </mj-table>
         <mj-spacer css-class="hidden-desktop" height="20px" />
@@ -328,7 +328,7 @@
         <mj-spacer css-class="hidden-desktop" height="25px" />
         <mj-spacer css-class="hidden-mobile" height="40px" />
         <mj-text mj-class="black subheader-text uppercase">
-          Logitech G Pro series
+          Pioneer Pro Series
         </mj-text>
         <mj-spacer css-class="hidden-desktop" height="15px" />
         <mj-spacer css-class="hidden-mobile" height="10px" />
@@ -336,7 +336,7 @@
         <mj-spacer css-class="hidden-desktop" height="20px" />
         <mj-spacer css-class="hidden-mobile" height="16px" />
         <mj-text mj-class="black body-text">
-          Play to win with gear designed with and for the world's leading esports professionals.
+          Achieve professional results with tools designed for serious builders and craftsmen.
         </mj-text>
         <mj-spacer css-class="hidden-desktop" height="20px" />
         <mj-spacer css-class="hidden-mobile" height="30px" />
@@ -358,7 +358,7 @@
               <img src="https://ci3.googleusercontent.com/meips/ADKq_NYnteMwuE2P7TUYxyly9tEn8Bp6I2n2PvQVC2Wif2QjUoISk7sMDCDvGjHt_eTYp8H-n0FjVjmk-1BFsDpYdUJ0RFOMHr2wHveL9tB86hOzqjOj1N80atggDENErTYWhLL8obQ4cjubqd3jOTxn1Kw21A=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/aa6a48b9d17794b292fd7695dd9cc7d7.png" height="50" style="display:block; vertical-align: top;" width="50">
             </td>
             <td class="black body-text" style="padding-left: 20px; padding-right: 25px">
-              The PRO SERIES was designed over three years with direct input from more than 50 professional esports players. <span class="hidden-desktop"><br></span><a href="#" class="light-blue bold uppercase" style="text-decoration: none;">Watch the video <span class="icon-text">►</span></a>
+              The PRO SERIES was developed with input from industry professionals to ensure top performance. <span class="hidden-desktop"><br></span><a href="#" class="light-blue bold uppercase" style="text-decoration: none;">Watch the video <span class="icon-text">►</span></a>
           </tr>
         </mj-table>
         <mj-spacer css-class="hidden-desktop" height="20px" />
@@ -382,7 +382,7 @@
         <mj-spacer css-class="hidden-desktop" height="25px" />
         <mj-spacer css-class="hidden-mobile" height="40px" />
         <mj-text mj-class="white subheader-text uppercase">
-          Racing sim gear
+          Specialty Equipment
         </mj-text>
         <mj-spacer css-class="hidden-desktop" height="15px" />
         <mj-spacer css-class="hidden-mobile" height="10px" />
@@ -390,12 +390,12 @@
         <mj-spacer css-class="hidden-desktop" height="20px" />
         <mj-spacer css-class="hidden-mobile" height="16px" />
         <mj-text mj-class="white body-text">
-          Relentlessly engineered for the perfect driving experience.
+          Explore our range of specialty equipment for specific projects.
         </mj-text>
         <mj-spacer css-class="hidden-desktop" height="20px" />
         <mj-spacer css-class="hidden-mobile" height="30px" />
         <mj-button align="left" border-radius="3px" mj-class="black light-blue-bg button-text uppercase" css-class="button-sizing" height="55px" href="https://www.google.co.uk">
-          Shop driving
+          Shop Specialty Equipment
         </mj-button>
         <mj-spacer css-class="hidden-desktop" height="25px" />
       </mj-column>
@@ -412,7 +412,7 @@
               <img src="https://ci3.googleusercontent.com/meips/ADKq_NYnteMwuE2P7TUYxyly9tEn8Bp6I2n2PvQVC2Wif2QjUoISk7sMDCDvGjHt_eTYp8H-n0FjVjmk-1BFsDpYdUJ0RFOMHr2wHveL9tB86hOzqjOj1N80atggDENErTYWhLL8obQ4cjubqd3jOTxn1Kw21A=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/aa6a48b9d17794b292fd7695dd9cc7d7.png" height="50" style="display:block; vertical-align: top;" width="50">
             </td>
             <td class="white body-text" style="padding-left: 20px; padding-right: 25px">
-              See it all in action at the 2019 Logitech G Challenge Eracing Grand Finals. <span class="hidden-desktop"><br></span><a href="#" class="light-blue bold uppercase" style="text-decoration: none;">Watch the video <span class="icon-text">►</span></a>
+              Whether it's for construction, gardening, or home improvement, we’ve got you covered. <span class="hidden-desktop"><br></span><a href="#" class="light-blue bold uppercase" style="text-decoration: none;">Watch the video <span class="icon-text">►</span></a>
           </tr>
         </mj-table>
         <mj-spacer css-class="hidden-desktop" height="20px" />
@@ -441,21 +441,21 @@
         <mj-image href="https://www.google.co.uk" src="https://ci3.googleusercontent.com/meips/ADKq_NarV5jKZ6G332AdAOp6ILwugWc56XPpJ7RMwmitBWyg1Bqug9WMQyjRZKZQao-ULVMDSIroAfGuY3KONP0GKevoDb4YwO3YSgZH0q4SXhRsB_kLYu_HrdRhub7ouvvjT83vds1e9tPudrG0bzFtjLk_hA=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/d33512f2038e7851d2f3564fbc622842.jpg" width="100px" />
         <mj-spacer height="30px" />
         <mj-text align="center" mj-class="cta-text bold uppercase">
-          <a href="https://www.google.co.uk" class="white" style="text-decoration: none;">Shop space <span class="icon-text">►</span></a>
+          <a href="https://www.google.co.uk" class="white" style="text-decoration: none;">Shop tools <span class="icon-text">►</span></a>
         </mj-text>
       </mj-column>
       <mj-column>
         <mj-image href="https://www.google.co.uk" src="https://ci3.googleusercontent.com/meips/ADKq_NaRJ3qM_mZ7by19KJrqucGhbL9VyrN00L6UCWLu10d6xsFo3nwWhw1tyOXG4_gnwA6pRjt1s81hJKi_y9_onJOENZWUf1Jar27sOJCLyDvXAmQ1Xqd37AL0rXMFxjQ-8fbrQL2cpKCTom78Zp7qvEAtwg=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/41b34e9b2bc136f9e409c92d355653e5.jpg" width="100px" />
         <mj-spacer height="30px" />
         <mj-text align="center" mj-class="white cta-text bold uppercase">
-          <a href="https://www.google.co.uk" class="white" style="text-decoration: none;">Shop flight <span class="icon-text">►</span></a>
+          <a href="https://www.google.co.uk" class="white" style="text-decoration: none;">Shop outdoor <span class="icon-text">►</span></a>
         </mj-text>
       </mj-column>
       <mj-column>
         <mj-image href="https://www.google.co.uk" src="https://ci3.googleusercontent.com/meips/ADKq_NZ58cFwJFNSUmn07d54rpVXYekpa8wultbXt2L6FTRxVgQHV9RtWZYB9urzKMqnJyytxi8qm9GOr_goykL_nkzk19rYzlhvS-dP2YqQZ2zJVzhdfvlwrlEER3K5kOmraYHI2dglMbrxq9QOiQNJycXsrg=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/bab521c660c356a8e66561966ce3c5be.jpg" width="100px" />
         <mj-spacer height="30px" />
         <mj-text align="center" mj-class="white cta-text bold uppercase">
-          <a href="https://www.google.co.uk" class="white" style="text-decoration:none;">Shop farm <span class="icon-text">►</span></a>
+          <a href="https://www.google.co.uk" class="white" style="text-decoration:none;">Shop home <span class="icon-text">►</span></a>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -513,7 +513,7 @@
         <mj-spacer css-class="hidden-desktop" height="25px" />
         <mj-spacer css-class="hidden-mobile" height="40px" />
         <mj-text mj-class="black subheader-text uppercase">
-          Gaming apparel
+          Shop Apparel
         </mj-text>
         <mj-spacer css-class="hidden-desktop" height="15px" />
         <mj-spacer css-class="hidden-mobile" height="10px" />
@@ -521,7 +521,7 @@
         <mj-spacer css-class="hidden-desktop" height="20px" />
         <mj-spacer css-class="hidden-mobile" height="16px" />
         <mj-text mj-class="black body-text">
-          High-quality, advanced apparel designed for an active player.
+          High-quality, durable apparel designed for the active builder.
         </mj-text>
         <mj-spacer css-class="hidden-desktop" height="20px" />
         <mj-spacer css-class="hidden-mobile" height="30px" />
@@ -554,7 +554,7 @@
         <mj-divider align="left" border-color="#C3C6C8" border-width="6px" width="84px" />
         <mj-spacer height="26px" />
         <mj-text mj-class="very-light-gray body-text">
-          Next up in the series: a passion for connection.
+          Next up in the series: a passion for innovation.
         </mj-text>
         <mj-spacer height="40px" />
       </mj-column>

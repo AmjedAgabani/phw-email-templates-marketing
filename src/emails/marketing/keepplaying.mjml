@@ -57,7 +57,7 @@
         <mj-spacer css-class="hidden-desktop" height="57px" />
         <mj-spacer css-class="hidden-mobile" height="75px" />
         <mj-text mj-class="white title-text uppercase">
-          <span class="header-text-desktop">Keep<br> playing</span>
+          <span class="header-text-desktop">Keep<br> building</span>
         </mj-text>
         <mj-spacer css-class="hidden-desktop" height="30px" />
         <mj-spacer css-class="hidden-mobile" height="25px" />
@@ -65,12 +65,12 @@
         <mj-spacer css-class="hidden-desktop" height="22px" />
         <mj-spacer css-class="hidden-mobile" height="20px" />
         <mj-text css-class="hero-body-text-padding-desktop" mj-class="white body-text">
-          Life is more fun when you play. Collect all 3 welcome emails & learn how to keep pushing the boundaries of performance.
+          Life is more rewarding when you create. Collect all 3 welcome emails and discover how to elevate your projects with cutting-edge hardware.
         </mj-text>
         <mj-spacer css-class="hidden-desktop" height="33px" />
         <mj-spacer css-class="hidden-mobile" height="30px" />
         <mj-button align="left" border-radius="3px" mj-class="dark-gray light-blue-bg button-text uppercase" css-class="button-sizing-desktop" height="55px" href="https://www.google.co.uk" width="293px">
-          Explore Logitech G
+          Explore PHW
         </mj-button>
         <mj-spacer css-class="hidden-desktop" height="60px" />
         <mj-spacer css-class="hidden-mobile" height="164px" />
@@ -87,17 +87,17 @@
         <mj-spacer css-class="hidden-desktop" height="23px" />
         <mj-spacer css-class="hidden-mobile" height="40px" />
         <mj-text mj-class="black subheader-text uppercase">
-          We are Logitech G
+          We are Pioneer Hardware World
         </mj-text>
         <mj-spacer height="14px" />
         <mj-divider align="left" border-color="#C3C6C8" border-style="solid" border-width="6px" width="88px" />
         <mj-spacer height="18px" />
         <mj-text mj-class="black body-text">
-          Latest award-winning technology & design: programmable RGB lighting, LIGHTSPEED wireless solutions & ever-faster Hero sensors.
+          Latest industry-leading technology & design: advanced tools, smart home solutions, and durable materials for every project.
         </mj-text>
         <mj-spacer height="26px" />
         <mj-text mj-class="light-blue cta-text bold uppercase">
-          Upgrade Innovation <span style="font-size:0.75em;">►</span>
+          Upgrade Your Tools <span style="font-size:0.75em;">►</span>
         </mj-text>
         <mj-spacer css-class="hidden-desktop" height="44px" />
         <mj-spacer css-class="hidden-mobile" height="14px" />
@@ -114,17 +114,17 @@
         <mj-spacer css-class="hidden-desktop" height="23px" />
         <mj-spacer css-class="hidden-mobile" height="40px" />
         <mj-text mj-class="white subheader-text uppercase">
-          Zero oppositon
+          Zero Compromise
         </mj-text>
         <mj-spacer height="14px" />
         <mj-divider align="left" border-color="#C3C6C8" border-style="solid" border-width="6px" width="88px" />
         <mj-spacer height="18px" />
         <mj-text mj-class="white body-text">
-          Get in on the win all around the world. See how esports teams & pro gamers play at their peak with Logitech G.
+          Join the ranks of innovators and builders worldwide. See how professionals and DIY enthusiasts achieve their best with Pioneer Hardware World.
         </mj-text>
         <mj-spacer height="26px" />
         <mj-text mj-class="light-blue cta-text bold uppercase">
-          Play to win <span style="font-size:0.75em;">►</span>
+          Build to Last <span style="font-size:0.75em;">►</span>
         </mj-text>
         <mj-spacer css-class="hidden-desktop" height="46px" />
         <mj-spacer css-class="hidden-mobile" height="65px" />
@@ -141,17 +141,17 @@
         <mj-spacer css-class="hidden-desktop" height="23px" />
         <mj-spacer css-class="hidden-mobile" height="40px" />
         <mj-text mj-class="black subheader-text uppercase">
-          Unlock the possibilities
+          Unlock Your Potential
         </mj-text>
         <mj-spacer height="14px" />
         <mj-divider align="left" border-color="#C3C6C8" border-style="solid" border-width="6px" width="88px" />
         <mj-spacer height="18px" />
         <mj-text mj-class="black body-text">
-          When everyone plays, we all win. Our adaptive gaming kits keep everyone in the game.
+          When everyone has access to quality tools, we all thrive. Our comprehensive kits ensure that everyone can take on any project.
         </mj-text>
         <mj-spacer height="26px" />
         <mj-text mj-class="light-blue cta-text bold uppercase">
-          Explore adaptive gaming <span style="font-size:0.75em;">►</span>
+          Explore our DIY Kits <span style="font-size:0.75em;">►</span>
         </mj-text>
         <mj-spacer css-class="hidden-desktop" height="46px" />
         <mj-spacer css-class="hidden-mobile" height="74px" />
@@ -174,7 +174,7 @@
         <mj-divider align="left" border-color="#C3C6C8" border-style="solid" border-width="6px" width="88px" />
         <mj-spacer height="18px" />
         <mj-text mj-class="white body-text">
-          Come alive with the passion for play with the Logitech G community.
+          Join a community that shares your passion for building and creating with Pioneer Hardware World.
         </mj-text>
         <mj-spacer height="26px" />
         <mj-text mj-class="light-blue cta-text bold uppercase">
@@ -208,7 +208,7 @@
               <img align="right" src="https://ci4.googleusercontent.com/proxy/4MnIFOs2-2euByeb7XwEbOM_vK_ZgOhj3YwNRMRkLWOr9hlvI0EBybLZ74Gm3dLSTpLEf5D4YRkRAsYje687aOwukzHCrIlIh8BDq4VeLsj_01Wk_dh81RxOtlNLYJ1zceTX6jsnCB2KelBGDdJKyN99dNaiq5EZ7oUpF1oMGWpUaL4pQBt6GlYmZXNv648=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/1aef980085160e70539dcb54c109404b0ef380f4f0aa597a7b0fb0741e78cc07.png" width="102px">
             </td>
             <td style="vertical-align: bottom;">
-              <span class="black body-text uppercase">Gaming mice</span>
+              <span class="black body-text uppercase">Power Tools</span>
             </td>
           </tr>
           <tr>
@@ -225,7 +225,7 @@
               <img align="right" src="https://ci4.googleusercontent.com/proxy/4MnIFOs2-2euByeb7XwEbOM_vK_ZgOhj3YwNRMRkLWOr9hlvI0EBybLZ74Gm3dLSTpLEf5D4YRkRAsYje687aOwukzHCrIlIh8BDq4VeLsj_01Wk_dh81RxOtlNLYJ1zceTX6jsnCB2KelBGDdJKyN99dNaiq5EZ7oUpF1oMGWpUaL4pQBt6GlYmZXNv648=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/1aef980085160e70539dcb54c109404b0ef380f4f0aa597a7b0fb0741e78cc07.png" width="102px">
             </td>
             <td style="vertical-align: bottom;">
-              <span class="black body-text uppercase">Gaming mice</span>
+              <span class="black body-text uppercase">Hand Tools</span>
             </td>
           </tr>
           <tr>
@@ -248,7 +248,7 @@
               <img align="right" src="https://ci4.googleusercontent.com/proxy/4MnIFOs2-2euByeb7XwEbOM_vK_ZgOhj3YwNRMRkLWOr9hlvI0EBybLZ74Gm3dLSTpLEf5D4YRkRAsYje687aOwukzHCrIlIh8BDq4VeLsj_01Wk_dh81RxOtlNLYJ1zceTX6jsnCB2KelBGDdJKyN99dNaiq5EZ7oUpF1oMGWpUaL4pQBt6GlYmZXNv648=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/1aef980085160e70539dcb54c109404b0ef380f4f0aa597a7b0fb0741e78cc07.png" width="102px">
             </td>
             <td style="vertical-align: bottom;">
-              <span class="black body-text uppercase">Gaming mice</span>
+              <span class="black body-text uppercase">Smart Home Devices</span>
             </td>
           </tr>
           <tr>
@@ -265,163 +265,7 @@
               <img align="right" src="https://ci4.googleusercontent.com/proxy/4MnIFOs2-2euByeb7XwEbOM_vK_ZgOhj3YwNRMRkLWOr9hlvI0EBybLZ74Gm3dLSTpLEf5D4YRkRAsYje687aOwukzHCrIlIh8BDq4VeLsj_01Wk_dh81RxOtlNLYJ1zceTX6jsnCB2KelBGDdJKyN99dNaiq5EZ7oUpF1oMGWpUaL4pQBt6GlYmZXNv648=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/1aef980085160e70539dcb54c109404b0ef380f4f0aa597a7b0fb0741e78cc07.png" width="102px">
             </td>
             <td style="vertical-align: bottom;">
-              <span class="black body-text uppercase">Gaming mice</span>
-            </td>
-          </tr>
-          <tr>
-            <td style="padding-top:10px;vertical-align: top">
-              <a href="#" class="light-blue cta-text bold uppercase">Shop now <span class="icon-text">►</span></a>
-            </td>
-          </tr>
-        </mj-table>
-      </mj-column>
-    </mj-section>
-
-    <!-- row3 -->
-
-    <mj-section mj-class="white-bg" padding="0 20px 20px 20px">
-      <mj-column>
-        <mj-table padding-bottom="20px">
-          <tr>
-            <td rowspan="2" style="padding-right: 16px" width="102px">
-              <img align="right" src="https://ci4.googleusercontent.com/proxy/4MnIFOs2-2euByeb7XwEbOM_vK_ZgOhj3YwNRMRkLWOr9hlvI0EBybLZ74Gm3dLSTpLEf5D4YRkRAsYje687aOwukzHCrIlIh8BDq4VeLsj_01Wk_dh81RxOtlNLYJ1zceTX6jsnCB2KelBGDdJKyN99dNaiq5EZ7oUpF1oMGWpUaL4pQBt6GlYmZXNv648=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/1aef980085160e70539dcb54c109404b0ef380f4f0aa597a7b0fb0741e78cc07.png" width="102px">
-            </td>
-            <td style="vertical-align: bottom;">
-              <span class="black body-text uppercase">Gaming mice</span>
-            </td>
-          </tr>
-          <tr>
-            <td style="padding-top:10px;vertical-align: top">
-              <a href="#" class="light-blue cta-text bold uppercase">Shop now <span class="icon-text">►</span></a>
-            </td>
-          </tr>
-        </mj-table>
-      </mj-column>
-      <mj-column>
-        <mj-table>
-          <tr>
-            <td rowspan="2" style="padding-right: 16px" width="102px">
-              <img align="right" src="https://ci4.googleusercontent.com/proxy/4MnIFOs2-2euByeb7XwEbOM_vK_ZgOhj3YwNRMRkLWOr9hlvI0EBybLZ74Gm3dLSTpLEf5D4YRkRAsYje687aOwukzHCrIlIh8BDq4VeLsj_01Wk_dh81RxOtlNLYJ1zceTX6jsnCB2KelBGDdJKyN99dNaiq5EZ7oUpF1oMGWpUaL4pQBt6GlYmZXNv648=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/1aef980085160e70539dcb54c109404b0ef380f4f0aa597a7b0fb0741e78cc07.png" width="102px">
-            </td>
-            <td style="vertical-align: bottom;">
-              <span class="black body-text uppercase">Gaming mice</span>
-            </td>
-          </tr>
-          <tr>
-            <td style="padding-top:10px;vertical-align: top">
-              <a href="#" class="light-blue cta-text bold uppercase">Shop now <span class="icon-text">►</span></a>
-            </td>
-          </tr>
-        </mj-table>
-      </mj-column>
-    </mj-section>
-
-    <!-- row4 -->
-
-    <mj-section mj-class="white-bg" padding="0 20px 20px 20px">
-      <mj-column>
-        <mj-table padding-bottom="20px">
-          <tr>
-            <td rowspan="2" style="padding-right: 16px" width="102px">
-              <img align="right" src="https://ci4.googleusercontent.com/proxy/4MnIFOs2-2euByeb7XwEbOM_vK_ZgOhj3YwNRMRkLWOr9hlvI0EBybLZ74Gm3dLSTpLEf5D4YRkRAsYje687aOwukzHCrIlIh8BDq4VeLsj_01Wk_dh81RxOtlNLYJ1zceTX6jsnCB2KelBGDdJKyN99dNaiq5EZ7oUpF1oMGWpUaL4pQBt6GlYmZXNv648=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/1aef980085160e70539dcb54c109404b0ef380f4f0aa597a7b0fb0741e78cc07.png" width="102px">
-            </td>
-            <td style="vertical-align: bottom;">
-              <span class="black body-text uppercase">Gaming mice</span>
-            </td>
-          </tr>
-          <tr>
-            <td style="padding-top:10px;vertical-align: top">
-              <a href="#" class="light-blue cta-text bold uppercase">Shop now <span class="icon-text">►</span></a>
-            </td>
-          </tr>
-        </mj-table>
-      </mj-column>
-      <mj-column>
-        <mj-table>
-          <tr>
-            <td rowspan="2" style="padding-right: 16px" width="102px">
-              <img align="right" src="https://ci4.googleusercontent.com/proxy/4MnIFOs2-2euByeb7XwEbOM_vK_ZgOhj3YwNRMRkLWOr9hlvI0EBybLZ74Gm3dLSTpLEf5D4YRkRAsYje687aOwukzHCrIlIh8BDq4VeLsj_01Wk_dh81RxOtlNLYJ1zceTX6jsnCB2KelBGDdJKyN99dNaiq5EZ7oUpF1oMGWpUaL4pQBt6GlYmZXNv648=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/1aef980085160e70539dcb54c109404b0ef380f4f0aa597a7b0fb0741e78cc07.png" width="102px">
-            </td>
-            <td style="vertical-align: bottom;">
-              <span class="black body-text uppercase">Gaming mice</span>
-            </td>
-          </tr>
-          <tr>
-            <td style="padding-top:10px;vertical-align: top">
-              <a href="#" class="light-blue cta-text bold uppercase">Shop now <span class="icon-text">►</span></a>
-            </td>
-          </tr>
-        </mj-table>
-      </mj-column>
-    </mj-section>
-
-    <!-- row5 -->
-
-    <mj-section mj-class="white-bg" padding="0 20px 20px 20px">
-      <mj-column>
-        <mj-table padding-bottom="20px">
-          <tr>
-            <td rowspan="2" style="padding-right: 16px" width="102px">
-              <img align="right" src="https://ci4.googleusercontent.com/proxy/4MnIFOs2-2euByeb7XwEbOM_vK_ZgOhj3YwNRMRkLWOr9hlvI0EBybLZ74Gm3dLSTpLEf5D4YRkRAsYje687aOwukzHCrIlIh8BDq4VeLsj_01Wk_dh81RxOtlNLYJ1zceTX6jsnCB2KelBGDdJKyN99dNaiq5EZ7oUpF1oMGWpUaL4pQBt6GlYmZXNv648=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/1aef980085160e70539dcb54c109404b0ef380f4f0aa597a7b0fb0741e78cc07.png" width="102px">
-            </td>
-            <td style="vertical-align: bottom;">
-              <span class="black body-text uppercase">Gaming mice</span>
-            </td>
-          </tr>
-          <tr>
-            <td style="padding-top:10px;vertical-align: top">
-              <a href="#" class="light-blue cta-text bold uppercase">Shop now <span class="icon-text">►</span></a>
-            </td>
-          </tr>
-        </mj-table>
-      </mj-column>
-      <mj-column>
-        <mj-table>
-          <tr>
-            <td rowspan="2" style="padding-right: 16px" width="102px">
-              <img align="right" src="https://ci4.googleusercontent.com/proxy/4MnIFOs2-2euByeb7XwEbOM_vK_ZgOhj3YwNRMRkLWOr9hlvI0EBybLZ74Gm3dLSTpLEf5D4YRkRAsYje687aOwukzHCrIlIh8BDq4VeLsj_01Wk_dh81RxOtlNLYJ1zceTX6jsnCB2KelBGDdJKyN99dNaiq5EZ7oUpF1oMGWpUaL4pQBt6GlYmZXNv648=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/1aef980085160e70539dcb54c109404b0ef380f4f0aa597a7b0fb0741e78cc07.png" width="102px">
-            </td>
-            <td style="vertical-align: bottom;">
-              <span class="black body-text uppercase">Gaming mice</span>
-            </td>
-          </tr>
-          <tr>
-            <td style="padding-top:10px;vertical-align: top">
-              <a href="#" class="light-blue cta-text bold uppercase">Shop now <span class="icon-text">►</span></a>
-            </td>
-          </tr>
-        </mj-table>
-      </mj-column>
-    </mj-section>
-
-    <!-- row6 -->
-
-    <mj-section mj-class="white-bg" padding="0 20px 20px 20px">
-      <mj-column>
-        <mj-table padding-bottom="20px">
-          <tr>
-            <td rowspan="2" style="padding-right: 16px" width="102px">
-              <img align="right" src="https://ci4.googleusercontent.com/proxy/4MnIFOs2-2euByeb7XwEbOM_vK_ZgOhj3YwNRMRkLWOr9hlvI0EBybLZ74Gm3dLSTpLEf5D4YRkRAsYje687aOwukzHCrIlIh8BDq4VeLsj_01Wk_dh81RxOtlNLYJ1zceTX6jsnCB2KelBGDdJKyN99dNaiq5EZ7oUpF1oMGWpUaL4pQBt6GlYmZXNv648=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/1aef980085160e70539dcb54c109404b0ef380f4f0aa597a7b0fb0741e78cc07.png" width="102px">
-            </td>
-            <td style="vertical-align: bottom;">
-              <span class="black body-text uppercase">Gaming mice</span>
-            </td>
-          </tr>
-          <tr>
-            <td style="padding-top:10px;vertical-align: top">
-              <a href="#" class="light-blue cta-text bold uppercase">Shop now <span class="icon-text">►</span></a>
-            </td>
-          </tr>
-        </mj-table>
-      </mj-column>
-      <mj-column>
-        <mj-table>
-          <tr>
-            <td rowspan="2" style="padding-right: 16px" width="102px">
-              <img align="right" src="https://ci4.googleusercontent.com/proxy/4MnIFOs2-2euByeb7XwEbOM_vK_ZgOhj3YwNRMRkLWOr9hlvI0EBybLZ74Gm3dLSTpLEf5D4YRkRAsYje687aOwukzHCrIlIh8BDq4VeLsj_01Wk_dh81RxOtlNLYJ1zceTX6jsnCB2KelBGDdJKyN99dNaiq5EZ7oUpF1oMGWpUaL4pQBt6GlYmZXNv648=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/1aef980085160e70539dcb54c109404b0ef380f4f0aa597a7b0fb0741e78cc07.png" width="102px">
-            </td>
-            <td style="vertical-align: bottom;">
-              <span class="black body-text uppercase">Gaming mice</span>
+              <span class="black body-text uppercase">Outdoor Equipment</span>
             </td>
           </tr>
           <tr>
@@ -444,7 +288,7 @@
       <mj-column>
         <mj-spacer height="46px" />
         <mj-text align="left" mj-class="white large-title-text uppercase" css-class="centered-text-desktop">
-          Total gear control with G&nbsp;Hub
+          Total Gear Control with Pioneer Hub
         </mj-text>
         <mj-spacer height="35px" />
       </mj-column>
@@ -458,7 +302,7 @@
               <img src="https://ci4.googleusercontent.com/proxy/nm6kQ0xD_cCkuqGjzwLVCjmmQze04u2nkBqtkmjzkBQD_p2T_JX26LKmyLln6GmfibcPF3a7CqEeoOhxzqo_aG4RVoBojogWy-cnbwuq3MDNrS8HkW2ilb37ZFR4flL9e_2P2OhSFFh8oUyH9W5kOXk1V2d8f20xDMrrUK05qcrbUlk6RCrO5gm4Jey9HiO5=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/707f34e268ed5c9f956b8e1f1552f7174a59228503d446989ef8dff36da14c38.jpeg" width="102px" />
             </td>
             <td align="left" class="white body-text uppercase" style="padding-top: 20px;vertical-align:top">
-              About<br>G Hub <span class="icon-text">►</span>
+              About<br>Pioneer<br>Hub <span class="icon-text">►</span>
             </td>
           </tr>
         </mj-table>
@@ -471,7 +315,7 @@
               <img src="https://ci4.googleusercontent.com/proxy/nrw-mEy9KW5luFw8OPEfQXKMqvfbC_az7fWfDFL0_LUczHyUdDEQUC48CT_s_zp3Fr89ztD9ypIE6eAWGX0ebfXyvVtNLZKmh0IjiwhE_w0l2FpGswBqYQUVOGfP5DjYPAOpOMZxZbWgCugF-nRAnk7iWBAmmntNe7NOurcq91D1IZs-CwXBejpioRM3bOfa=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/ff67591e5b9f6cd0ad6e6b76b8da7df64872437aaad04dc5655b8480795dd212.jpeg" width="102px" />
             </td>
             <td align="left" class="white body-text uppercase" style="padding-top: 20px;vertical-align:top">
-              G Hub<br>Quick start <span class="icon-text">►</span>
+              Quick<br>Start<br>Guide <span class="icon-text">►</span>
             </td>
           </tr>
         </mj-table>
@@ -498,7 +342,7 @@
         <mj-spacer css-class="hidden-desktop" height="29px" />
         <mj-spacer css-class="hidden-mobile" height="15px" />
         <mj-text align="center" mj-class="mortar-gray statement-text">
-          We are the first gaming company that has committed to providing detailed carbon impact labeling on packaging across our entire portfolio, we call this Carbon Clarity. We want to empower players to make impactful and knowledgeable decisions that help reduce their carbon footprint.
+          We are committed to sustainable practices, providing transparent eco-impact labeling on our packaging. We want to empower our customers to make informed decisions that contribute to a better planet.
         </mj-text>
         <mj-spacer css-class="hidden-desktop" height="41px" />
         <mj-spacer css-class="hidden-mobile" height="50px" />
@@ -521,7 +365,7 @@
         <mj-divider align="left" border-color="#C3C6C8" border-width="6px" width="84px" />
         <mj-spacer height="26px" />
         <mj-text mj-class="very-light-gray body-text">
-          Next up in the series: a passion for play.
+          Next up in the series: a commitment to quality.
         </mj-text>
         <mj-spacer height="40px" />
       </mj-column>
