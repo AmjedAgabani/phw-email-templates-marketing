@@ -7,7 +7,7 @@
     "build": "npx gulp build --imgBaseUrl=https://amjedagabani.github.io/phw-email-templates-marketing/img",
     "build:dev": "npx gulp build --imgBaseUrl=http://localhost:3000/img",
     "clean": "npx gulp clean",
-    "watch": "npx gulp watch"
+    "watch": "npx gulp watch --imgBaseUrl=http://localhost:3000/img"
   },
   "repository": {
     "type": "git",
