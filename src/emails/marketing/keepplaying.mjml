@@ -53,7 +53,7 @@
       <mj-column>
         <mj-spacer css-class="hidden-desktop" height="34px" />
         <mj-spacer css-class="hidden-mobile" height="40px" />
-        <mj-image align="center" href="https://www.google.co.uk" src="https://ci6.googleusercontent.com/proxy/mr64QVxTKw635oejxEnfbpnGC52I-NW-qbp5l6nnll5VpBmBMTXq-tKHR7K6f_4gez_6cqiD628CRTRZ9u00SK624zmSCd_P1CmG4nXRXtXmJnQJE7cIYvaaLRpb9b-L7YIckkm7icL2JJjSkjAe=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/610fa466b823e3868d26fa038d81c9b5.png" width="113px" />
+        <mj-image align="center" href="https://www.google.co.uk" src="{{imgBaseUrl}}/phw-logo-white.png" width="113px" />
         <mj-spacer css-class="hidden-desktop" height="57px" />
         <mj-spacer css-class="hidden-mobile" height="75px" />
         <mj-text mj-class="white title-text uppercase">
