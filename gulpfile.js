@@ -1,28 +1,48 @@
 const browserSync = require('browser-sync').create();
 const fs = require('fs');
-const { dest, src, watch: gulpWatch } = require('gulp');
-const mjml = require('gulp-mjml');
+const Handlebars = require('handlebars');
+const { dest, parallel, src, watch: gulpWatch } = require('gulp');
+const mjml = require('./gulp-mjml');
 const mjmlEngine = require('mjml');
 const path = require('path');
+const argv = require('yargs').argv;
+
+const templateData = {
+  "imgBaseUrl": argv.imgBaseUrl,
+};
 
 // Require your own components if needed, and your mjmlEngine (possibly with options)
 // require('./components')
 
 const BUILD_DIR = './build';
+const SRC_IMG_GLOB = './src/img/**/*'
 const SRC_GLOB = './src/**/*';
 const SRC_EMAIL_DIR = './src/emails';
 const SRC_EMAIL_GLOB = './src/emails/**/*.mjml';
 
 function handleError(err) {
-  console.log(err.toString());
+  console.error(err);
   this.emit('end');
 }
 
-function build() {
+function buildMjml() {
   return src(SRC_EMAIL_GLOB)
-    .pipe(mjml(mjmlEngine, { validationLevel: 'strict' }))
+    .pipe(mjml(mjmlEngine, {
+      validationLevel: 'strict', preprocessors: [
+        (rawMJML) => {
+          const hbarsTemplate = Handlebars.compile(rawMJML);
+          const compiledTemplate = hbarsTemplate(templateData);
+          return compiledTemplate;
+        }
+      ]
+    }))
     .on('error', handleError)
     .pipe(dest(BUILD_DIR));
+}
+
+function copyImages() {
+  return src(SRC_IMG_GLOB)
+    .pipe(dest(BUILD_DIR + '/img'));
 }
 
 function clean(cb) {
@@ -31,7 +51,7 @@ function clean(cb) {
 
 function watch() {
   // All events will be watched
-  gulpWatch(SRC_GLOB, { ignoreInitial: false }, build).on('all', () =>
+  gulpWatch(SRC_GLOB, { ignoreInitial: false }, buildMjml).on('all', () =>
     browserSync.reload()
   );
 
@@ -46,9 +66,11 @@ function watch() {
     })
     .on('add', (file) => index.data.add(index.format(file)))
     .on('unlink', (file) => index.data.delete(index.format(file)));
+
+  gulpWatch(SRC_IMG_GLOB, { ignoreInitial: false }, copyImages);
 }
 
-exports.build = build;
+exports.build = parallel(buildMjml, copyImages);
 exports.clean = clean;
 exports.watch = watch;
 
@@ -98,14 +120,14 @@ const index = {
     <h1>Email Index</h1>
     <ul>
   ${sortedGroups
-    .map((groupName) => {
-      return `<li><strong>${groupName}</strong><ul>${groups[groupName]
-        .map((filePath) => {
-          return `<li><a href="${groupName}/${filePath}">${filePath}</a></li>`;
+        .map((groupName) => {
+          return `<li><strong>${groupName}</strong><ul>${groups[groupName]
+            .map((filePath) => {
+              return `<li><a href="${groupName}/${filePath}">${filePath}</a></li>`;
+            })
+            .join('')}</ul></li>`;
         })
-        .join('')}</ul></li>`;
-    })
-    .join('\n')}
+        .join('\n')}
     </ul>
   </body>
   </html>`;

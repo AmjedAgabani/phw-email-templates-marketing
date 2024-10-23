@@ -1,0 +1,587 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all padding="0" />
+      <mj-include path="../../styles/mj-class/bgcolors.mjml" />
+      <mj-include path="../../styles/mj-class/colors.mjml" />
+      <mj-include path="../../styles/mj-class/typography.mjml" />
+    </mj-attributes>
+    <mj-include path="../../styles/css/colors.mjml" />
+    <mj-include path="../../styles/css/responsive.mjml" />
+    <mj-include path="../../styles/css/typography.mjml" />
+    <mj-preview>Preview</mj-preview>
+    <mj-title>Title</mj-title>
+    <mj-style>
+      @media (min-width: 480px) {
+      .hero-image-background-position-desktop > div > table {
+      background-position: unset !important;
+      background-size: cover !important;
+      }
+      .hero-desktop-padding > div > table > tbody > tr > td {
+      padding: 0 40px !important;
+      }
+      .hero-body-text-padding-desktop {
+      padding-right: 260px !important;
+      }
+      }
+
+      @media (min-width: 480px) {
+      .collect-emails-desktop-image > div > table {
+      background: url("https://ci3.googleusercontent.com/meips/ADKq_NbPGtqK-vY5OmiEHCN7fGJFt28kXg-8czhOUjTDH4_r3G1_7lWzYv01kZA7A5m__a-kDY76rsFpfvSz-I7c65_Xq1vp0lon85dZblsgn1zDen1LLcbOJKjwGmabLQ7NNb-nSBF87fz5gbAQM94lN6te5A=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/cc8c4db787528416b12f7b609be2b0b0.png") !important;
+      }
+      }
+
+      @media (min-width: 480px) {
+      .button-sizing > table > tbody > tr > td > a {
+      width: 163px !important;
+      }
+      }
+
+      @media (max-width: 480px) {
+      .button-sizing > table > tbody > tr > td {
+      width: 340px !important;
+      }
+      .button-sizing > table > tbody > tr > td > a {
+      width: 280px !important;
+      }
+      }
+
+      @media (max-width: 360px) {
+      .button-sizing > table > tbody > tr > td {
+      width: 280px !important;
+      }
+      .button-sizing > table > tbody > tr > td > a {
+      width: 220px !important;
+      }
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body mj-class="dim-gray-bg" width="640px">
+
+    <!-- Hero -->
+
+    <mj-section mj-class="black-bg" background-position-x="-75px" background-position-y="0px" background-position="left" background-repeat="no-repeat" background-size="600px" background-url="https://ci3.googleusercontent.com/meips/ADKq_NaRFeob4mnqxqDBOIAoK0zSzd6EVebLu36Qbywhg2qaAFGsrAK_R-txw0cT1U79xdr1Twi0fFtoz6V55-lZLAf3JrgknPiosGiwAbjCh0eTMqBvbHMHPmvce5D6V_9qGgd2Z60Z7yEiI-sfNfxQfUVLRA=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/3801d01d9415d37fd7b34826e71e9f5c.jpg" css-class="hero-desktop-padding hero-image-background-position-desktop" padding="0 20px">
+      <mj-column>
+        <mj-spacer css-class="hidden-desktop" height="40px" />
+        <mj-spacer css-class="hidden-mobile" height="40px" />
+        <mj-image align="left" href="https://www.google.co.uk" src="https://ci6.googleusercontent.com/proxy/mr64QVxTKw635oejxEnfbpnGC52I-NW-qbp5l6nnll5VpBmBMTXq-tKHR7K6f_4gez_6cqiD628CRTRZ9u00SK624zmSCd_P1CmG4nXRXtXmJnQJE7cIYvaaLRpb9b-L7YIckkm7icL2JJjSkjAe=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/610fa466b823e3868d26fa038d81c9b5.png" width="113px" />
+        <mj-spacer css-class="hidden-desktop" height="42px" />
+        <mj-spacer css-class="hidden-mobile" height="40px" />
+        <mj-text mj-class="white title-text uppercase">
+          <span class="header-text-desktop">Gaming is<br class="hidden-mobile"> our passion</span>
+        </mj-text>
+        <mj-spacer css-class="hidden-desktop" height="30px" />
+        <mj-spacer css-class="hidden-mobile" height="25px" />
+        <mj-divider align="left" border-color="#ffffff" border-style="solid" border-width="6px" width="84px" />
+        <mj-spacer css-class="hidden-desktop" height="30px" />
+        <mj-spacer css-class="hidden-mobile" height="25px" />
+        <mj-text mj-class="white subheader-text uppercase">
+          What's your game?
+        </mj-text>
+        <mj-spacer css-class="hidden-desktop" height="20px" />
+        <mj-spacer css-class="hidden-mobile" height="10px" />
+        <mj-text css-class="hero-body-text-padding-desktop" mj-class="white body-text">
+          Logitech G obsesses over every detail to give you winning gaming equipment, from mice to keyboards, headsets, racing wheels and controllers.
+        </mj-text>
+        <mj-spacer css-class="hidden-desktop" height="90px" />
+        <mj-spacer css-class="hidden-mobile" height="165px" />
+      </mj-column>
+
+    </mj-section>
+
+    <mj-section mj-class="white-bg" padding="0 20px">
+      <mj-column>
+        <mj-spacer css-class="hidden-desktop" height="50px" />
+        <mj-spacer css-class="hidden-mobile" height="40px" />
+        <mj-text align="left" mj-class="black large-title-text uppercase">
+          Advanced gaming gear
+        </mj-text>
+        <mj-spacer css-class="hidden-desktop" height="50px" />
+        <mj-spacer css-class="hidden-mobile" height="20px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Gaming Mice -->
+
+    <mj-section mj-class="white-bg">
+      <mj-column>
+        <mj-image fluid-on-mobile="true" src="https://ci3.googleusercontent.com/meips/ADKq_NYnItSZqEkq-1bb7boWLK7yjLGb7Y-qWZglLDX_QlT1HiqaBsT9Fwimd62JwobjZIqwmtSukvdn3plW4uCSMKE5QUWRcn3spMywvOYjFnztoVNNSbt0_jzit3gIKbSrC6WTg4hTkqYUnH-deQpqlhhbNyL31DSYBuYkxbM1j4vhebjlI_DPK3OVV4ObK8VcRlZ8=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/dfa63a48143f5197416830b01eafa04a0aaf0803f33ad2d399cd29a9a15e781f.gif" width="367px" />
+      </mj-column>
+      <mj-column padding-left="20px">
+        <mj-spacer css-class="hidden-desktop" height="25px" />
+        <mj-spacer css-class="hidden-mobile" height="40px" />
+        <mj-text mj-class="black subheader-text uppercase">
+          Gaming<br class="hidden-mobile"> mice
+        </mj-text>
+        <mj-spacer css-class="hidden-desktop" height="15px" />
+        <mj-spacer css-class="hidden-mobile" height="10px" />
+        <mj-divider align="left" border-color="#c3c6c8" border-style="solid" border-width="6px" width="84px" />
+        <mj-spacer css-class="hidden-desktop" height="20px" />
+        <mj-spacer css-class="hidden-mobile" height="16px" />
+        <mj-text mj-class="black body-text" padding-right="40px">
+          Award-winning wireless and wired gaming mice, from sensors to shape.
+        </mj-text>
+        <mj-spacer css-class="hidden-desktop" height="20px" />
+        <mj-spacer css-class="hidden-mobile" height="30px" />
+        <mj-button align="left" border-radius="3px" css-class="button-sizing" mj-class="white light-blue-bg button-text uppercase" height="55px" href="https://www.google.co.uk">
+          Shop mice
+        </mj-button>
+        <mj-spacer css-class="hidden-desktop" height="25px" />
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section mj-class="white-bg" padding="0 40px">
+      <mj-column>
+        <mj-spacer css-class="hidden-desktop" height="20px" />
+        <mj-spacer css-class="hidden-mobile" height="20px" />
+        <mj-table align="center">
+          <tr>
+            <td style="display:inline;">
+              <img src="https://ci3.googleusercontent.com/meips/ADKq_NbKddQo20alxYIvJ32W9jjuiZ8Ev466bs8RpUd7m7mdvZke2shOM1TG-hdmSV9gJob8_TCsR_9dZ8ZlMSVC6xLPQhMUi97xhxegd9exdwG5Q2rWUUGysHbforrJsRF0rIYyr0qKcCEaEkrj4exL0b6jig=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/cdce7cb72d1645da3b3a6666b1cc036f.png" height="50" style="display:block; vertical-align: top;" width="50">
+            </td>
+            <td class="black body-text" style="padding-left: 20px; padding-right: 25px">
+              The wireless breakthrough, LIGHTSPEED®, is here with 1 ms report rate and robust lag-free connectivity. <span class="hidden-desktop"><br></span><a href="#" class="light-blue bold uppercase" style="text-decoration: none;">More <span class="icon-text">►</span></a>
+          </tr>
+        </mj-table>
+        <mj-spacer css-class="hidden-desktop" height="20px" />
+        <mj-spacer css-class="hidden-mobile" height="20px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="hidden-desktop">
+      <mj-column>
+        <mj-divider border-color="#000000" border-style="solid" border-width="1px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Gaming mouse pad -->
+
+    <mj-section mj-class="dark-gray-bg">
+      <mj-column>
+        <mj-image fluid-on-mobile="true" src="https://ci3.googleusercontent.com/meips/ADKq_NYxT_1n6Smm3OLKMavObvynDzaOqRtt1pnfJfHxSrbF-_VXuQ5TwaJb2_wZLe2lqvyBTT2wcRyTLZLiFWln_ut_R1PaYCmZytkg5QiNr7FlOCw1FEUiXVb36rdmqScvbLAwAXhm1SwqNAa9Uztr54QK-Q50wd-ekHhMEOItPMb_cN95EiG05tFg0ua491w9SAub=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/8a456ecfbe3060ecf11de37c633221e4a43d8dc315789f18577d112e801615a8.gif" width="367px" />
+      </mj-column>
+      <mj-column padding-left="20px">
+        <mj-spacer css-class="hidden-desktop" height="25px" />
+        <mj-spacer css-class="hidden-mobile" height="40px" />
+        <mj-text mj-class="white subheader-text uppercase">
+          Gaming mouse pads
+        </mj-text>
+        <mj-spacer css-class="hidden-desktop" height="15px" />
+        <mj-spacer css-class="hidden-mobile" height="10px" />
+        <mj-divider align="left" border-color="#c3c6c8" border-style="solid" border-width="6px" width="84px" />
+        <mj-spacer css-class="hidden-desktop" height="20px" />
+        <mj-spacer css-class="hidden-mobile" height="16px" />
+        <mj-text mj-class="white body-text">
+          Go whole-desktop to minimal size with surfaces engineered for maximum consistency and stability.
+        </mj-text>
+        <mj-spacer css-class="hidden-desktop" height="20px" />
+        <mj-spacer css-class="hidden-mobile" height="30px" />
+        <mj-button align="left" border-radius="3px" mj-class="black light-blue-bg button-text uppercase" css-class="button-sizing" height="55px" href="https://www.google.co.uk">
+          Shop mouse pads
+        </mj-button>
+        <mj-spacer css-class="hidden-desktop" height="25px" />
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section mj-class="dark-gray-bg" padding="0 40px">
+      <mj-column>
+        <mj-spacer css-class="hidden-desktop" height="20px" />
+        <mj-spacer css-class="hidden-mobile" height="20px" />
+        <mj-table align="center">
+          <tr>
+            <td style="display:inline;">
+              <img src="https://ci3.googleusercontent.com/meips/ADKq_Nb7RYgtwUNnWLdAO5cFcgAGmf1BKrLcXdx1HRrwe0X0Xk2oXwF45gJJN6hHnD0xwrQWVVKJVBXe1Ynd3Dl-bXUzad041TScyU2ySkOfxTEyZc3EQquIJPb-AxlxpeqEHkfNQr-9t7UJ2i5m2Mze8gGdfg=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/dbae0bcf39026fa54326156ec6d4f2af.png" height="50" style="display:block; vertical-align: top;" width="50">
+            </td>
+            <td class="white body-text" style="padding-left: 20px; padding-right: 25px">
+              With POWERPLAY, you'll never plug and charge your compatible LIGHTSPEED® wireless mouse again. <span class="hidden-desktop"><br></span><a href="#" class="light-blue bold uppercase" style="text-decoration: none;">More <span class="icon-text">►</span></a>
+          </tr>
+        </mj-table>
+        <mj-spacer css-class="hidden-desktop" height="20px" />
+        <mj-spacer css-class="hidden-mobile" height="20px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="hidden-desktop">
+      <mj-column>
+        <mj-divider border-color="#ffffff" border-style="solid" border-width="1px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Gaming keyboard -->
+
+    <mj-section mj-class="white-bg">
+      <mj-column>
+        <mj-image fluid-on-mobile="true" src="https://ci3.googleusercontent.com/meips/ADKq_Napc1_cvH1bKu91OmPCwIJoq9fOQuoN2io5HYrJDEbutTEGLe5bGANpeLYhQuzqXsq1RGGeMBHYXOk9jqJfdtJkXarS9i80cRMplRlLOMk6XGhDyI9Rx8363xVtZHh6zTbUJikJoeRSTQT81y3E3E7lPw=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/c7d4af4c5f11b593a817e7822480f679.jpg" width="367px" />
+      </mj-column>
+      <mj-column padding-left="20px">
+        <mj-spacer css-class="hidden-desktop" height="25px" />
+        <mj-spacer css-class="hidden-mobile" height="40px" />
+        <mj-text mj-class="black subheader-text uppercase">
+          Gaming keyboards
+        </mj-text>
+        <mj-spacer css-class="hidden-desktop" height="15px" />
+        <mj-spacer css-class="hidden-mobile" height="10px" />
+        <mj-divider align="left" border-color="#c3c6c8" border-style="solid" border-width="6px" width="84px" />
+        <mj-spacer css-class="hidden-desktop" height="20px" />
+        <mj-spacer css-class="hidden-mobile" height="16px" />
+        <mj-text mj-class="black body-text">
+          Speed, accuracy, and durability for high performance gaming.
+        </mj-text>
+        <mj-spacer css-class="hidden-desktop" height="20px" />
+        <mj-spacer css-class="hidden-mobile" height="30px" />
+        <mj-button align="left" border-radius="3px" mj-class="white light-blue-bg button-text uppercase" css-class="button-sizing" height="55px" href="https://www.google.co.uk">
+          Shop keyboards
+        </mj-button>
+        <mj-spacer css-class="hidden-desktop" height="25px" />
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section mj-class="white-bg" padding="0 40px">
+      <mj-column>
+        <mj-spacer css-class="hidden-desktop" height="20px" />
+        <mj-spacer css-class="hidden-mobile" height="20px" />
+        <mj-table align="center">
+          <tr>
+            <td style="display:inline;">
+              <img src="https://ci3.googleusercontent.com/meips/ADKq_NbmqiY15f8GkI686bbCCdccoRHT4edJjvYE43rNexarUqPBYJd6dwS4jvFtOkTJvdc6vlC4Mk12wQTq5YbUaERlUut6vWPFUmhym0g8wGKLtaeufT4ycpt8G8jjwOk1ZbrDb47ocUdw-RPArRHsTaekPQ=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/fc5033313f42a3ef6f1df7c11fe368ef.png" height="50" style="display:block; vertical-align: top;" width="50">
+            </td>
+            <td class="black body-text" style="padding-left: 20px; padding-right: 25px">
+              Choose tactile, linear, or clicky with low-profile or standard-height switches. <span class="hidden-desktop"><br></span><a href="#" class="light-blue bold uppercase" style="text-decoration: none;">More on mechanical switches <span class="icon-text">►</span></a>
+          </tr>
+        </mj-table>
+        <mj-spacer css-class="hidden-desktop" height="20px" />
+        <mj-spacer css-class="hidden-mobile" height="20px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="hidden-desktop">
+      <mj-column>
+        <mj-divider border-color="#000000" border-style="solid" border-width="1px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Gaming audio -->
+
+    <mj-section mj-class="dark-gray-bg">
+      <mj-column>
+        <mj-image fluid-on-mobile="true" src="https://ci3.googleusercontent.com/meips/ADKq_NZtrhZ-2S2Cd0RDpYMY9GaocgVKQhm9FNPXkFmCCYJza1qvZFOcrNyagxBIVdP8ROVOKAoNjcbhtw7B--Opqn5ED2R5Wj8ppK5WFnxIH7Yq_5CXpA17putFcJ_tqNWyo4aVvt8I5lpVNmFi5ia5Zx6TLw=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/651b84c1b8d8c1a1a068f4259d84e8c4.jpg" width="367px" />
+      </mj-column>
+      <mj-column padding-left="20px">
+        <mj-spacer css-class="hidden-desktop" height="25px" />
+        <mj-spacer css-class="hidden-mobile" height="40px" />
+        <mj-text mj-class="white subheader-text uppercase">
+          Gaming audio
+        </mj-text>
+        <mj-spacer css-class="hidden-desktop" height="15px" />
+        <mj-spacer css-class="hidden-mobile" height="10px" />
+        <mj-divider align="left" border-color="#c3c6c8" border-style="solid" border-width="6px" width="84px" />
+        <mj-spacer css-class="hidden-desktop" height="20px" />
+        <mj-spacer css-class="hidden-mobile" height="16px" />
+        <mj-text mj-class="white body-text">
+          Get into the game with immersive sound, crystal-clear mics, customizable EQ and optional 7.1 surround.
+        </mj-text>
+        <mj-spacer css-class="hidden-desktop" height="20px" />
+        <mj-spacer css-class="hidden-mobile" height="30px" />
+        <mj-button align="left" border-radius="3px" mj-class="black light-blue-bg button-text uppercase" css-class="button-sizing" height="55px" href="https://www.google.co.uk">
+          Shop audio
+        </mj-button>
+        <mj-spacer css-class="hidden-desktop" height="25px" />
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section mj-class="dark-gray-bg" padding="0 40px">
+      <mj-column>
+        <mj-spacer css-class="hidden-desktop" height="20px" />
+        <mj-spacer css-class="hidden-mobile" height="20px" />
+        <mj-table align="center">
+          <tr>
+            <td style="display:inline;">
+              <img src="https://ci3.googleusercontent.com/meips/ADKq_NZ3tDspUMRhEsUCh07TlrKXT3llXIPGk7JEiewX3m3WvLHC9zVkfbKIlMu3snaperNAHRF4amJmGxsB4UQEAeeEL0wFjzSpoEJ08TT4w-4rjei75w1ifmcm4WX07S6ozSl9_w9e1s95tITrixqJbVZ0Xw=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/125fe97b88ec5d7365b69bafe93072e0.png" height="50" style="display:block; vertical-align: top;" width="50">
+            </td>
+            <td class="white body-text" style="padding-left: 20px; padding-right: 25px">
+              Blue VO!CE microphone technology and filters reduce noise for a richer, cleaner, more professional sound. <br><a href="#" class="light-blue bold uppercase" style="text-decoration: none;">More on Blue Vo!ce <span class="icon-text">►</span></a>
+          </tr>
+        </mj-table>
+        <mj-spacer css-class="hidden-desktop" height="20px" />
+        <mj-spacer css-class="hidden-mobile" height="20px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="hidden-desktop">
+      <mj-column>
+        <mj-divider border-color="#ffffff" border-style="solid" border-width="1px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- G Pro series -->
+
+    <mj-section mj-class="white-bg">
+      <mj-column>
+        <mj-image fluid-on-mobile="true" src="https://ci3.googleusercontent.com/meips/ADKq_NZn3dl9qZIndXR_LG47bTt-09-9Ce4l0QeT0PcKUyJTyevpRsshzkZDMqB2QdsarNNlfZ45e3ovPg3jY3LOdQsaYt0uJWhYNqPYpBkZZheBCr0VZ3bdb2ZzJZAM8hdFsVMGSCEAbtedxiaJIJ1FRq1h9w=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/e3aa33b28f319cc01120af3cb479d0af.jpg" width="367px" />
+      </mj-column>
+      <mj-column padding-left="20px">
+        <mj-spacer css-class="hidden-desktop" height="25px" />
+        <mj-spacer css-class="hidden-mobile" height="40px" />
+        <mj-text mj-class="black subheader-text uppercase">
+          Logitech G Pro series
+        </mj-text>
+        <mj-spacer css-class="hidden-desktop" height="15px" />
+        <mj-spacer css-class="hidden-mobile" height="10px" />
+        <mj-divider align="left" border-color="#c3c6c8" border-style="solid" border-width="6px" width="84px" />
+        <mj-spacer css-class="hidden-desktop" height="20px" />
+        <mj-spacer css-class="hidden-mobile" height="16px" />
+        <mj-text mj-class="black body-text">
+          Play to win with gear designed with and for the world's leading esports professionals.
+        </mj-text>
+        <mj-spacer css-class="hidden-desktop" height="20px" />
+        <mj-spacer css-class="hidden-mobile" height="30px" />
+        <mj-button align="left" border-radius="3px" mj-class="white light-blue-bg button-text uppercase" css-class="button-sizing" height="55px" href="https://www.google.co.uk">
+          Shop pro series
+        </mj-button>
+        <mj-spacer css-class="hidden-desktop" height="25px" />
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section mj-class="white-bg" padding="0 40px">
+      <mj-column>
+        <mj-spacer css-class="hidden-desktop" height="20px" />
+        <mj-spacer css-class="hidden-mobile" height="20px" />
+        <mj-table align="center">
+          <tr>
+            <td style="display:inline;">
+              <img src="https://ci3.googleusercontent.com/meips/ADKq_NYnteMwuE2P7TUYxyly9tEn8Bp6I2n2PvQVC2Wif2QjUoISk7sMDCDvGjHt_eTYp8H-n0FjVjmk-1BFsDpYdUJ0RFOMHr2wHveL9tB86hOzqjOj1N80atggDENErTYWhLL8obQ4cjubqd3jOTxn1Kw21A=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/aa6a48b9d17794b292fd7695dd9cc7d7.png" height="50" style="display:block; vertical-align: top;" width="50">
+            </td>
+            <td class="black body-text" style="padding-left: 20px; padding-right: 25px">
+              The PRO SERIES was designed over three years with direct input from more than 50 professional esports players. <span class="hidden-desktop"><br></span><a href="#" class="light-blue bold uppercase" style="text-decoration: none;">Watch the video <span class="icon-text">►</span></a>
+          </tr>
+        </mj-table>
+        <mj-spacer css-class="hidden-desktop" height="20px" />
+        <mj-spacer css-class="hidden-mobile" height="20px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="hidden-desktop">
+      <mj-column>
+        <mj-divider border-color="#000000" border-style="solid" border-width="1px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Racing gear series -->
+
+    <mj-section mj-class="dark-gray-bg">
+      <mj-column>
+        <mj-image fluid-on-mobile="true" src="https://ci3.googleusercontent.com/meips/ADKq_NZbc70NdOCocFFwH-QC3I5fAYj7cuNN9Bj-zRMeqiMIGtMC4vgg-Wpj1iH823N4gBGuYtwt8q3dVxsP1Y524PqsEOVEO1HOA83HJf4qHeGlIUytDu9Rh6qYUEensXbYJWk77WnhP3gWL23gKIkGsLQK73KepNXMVSP9Yb_ANSoOa1JsPnl0pwPfWKGREsYxi6hv=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/b38267854588a685fa4f8a52b4ceffc171830b7b28ef73000ceadf6999243b25.jpg" width="367px" />
+      </mj-column>
+      <mj-column padding-left="20px">
+        <mj-spacer css-class="hidden-desktop" height="25px" />
+        <mj-spacer css-class="hidden-mobile" height="40px" />
+        <mj-text mj-class="white subheader-text uppercase">
+          Racing sim gear
+        </mj-text>
+        <mj-spacer css-class="hidden-desktop" height="15px" />
+        <mj-spacer css-class="hidden-mobile" height="10px" />
+        <mj-divider align="left" border-color="#c3c6c8" border-style="solid" border-width="6px" width="84px" />
+        <mj-spacer css-class="hidden-desktop" height="20px" />
+        <mj-spacer css-class="hidden-mobile" height="16px" />
+        <mj-text mj-class="white body-text">
+          Relentlessly engineered for the perfect driving experience.
+        </mj-text>
+        <mj-spacer css-class="hidden-desktop" height="20px" />
+        <mj-spacer css-class="hidden-mobile" height="30px" />
+        <mj-button align="left" border-radius="3px" mj-class="black light-blue-bg button-text uppercase" css-class="button-sizing" height="55px" href="https://www.google.co.uk">
+          Shop driving
+        </mj-button>
+        <mj-spacer css-class="hidden-desktop" height="25px" />
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section mj-class="dark-gray-bg" padding="0 40px">
+      <mj-column>
+        <mj-spacer css-class="hidden-desktop" height="20px" />
+        <mj-spacer css-class="hidden-mobile" height="20px" />
+        <mj-table align="center">
+          <tr>
+            <td style="display:inline;">
+              <img src="https://ci3.googleusercontent.com/meips/ADKq_NYnteMwuE2P7TUYxyly9tEn8Bp6I2n2PvQVC2Wif2QjUoISk7sMDCDvGjHt_eTYp8H-n0FjVjmk-1BFsDpYdUJ0RFOMHr2wHveL9tB86hOzqjOj1N80atggDENErTYWhLL8obQ4cjubqd3jOTxn1Kw21A=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/aa6a48b9d17794b292fd7695dd9cc7d7.png" height="50" style="display:block; vertical-align: top;" width="50">
+            </td>
+            <td class="white body-text" style="padding-left: 20px; padding-right: 25px">
+              See it all in action at the 2019 Logitech G Challenge Eracing Grand Finals. <span class="hidden-desktop"><br></span><a href="#" class="light-blue bold uppercase" style="text-decoration: none;">Watch the video <span class="icon-text">►</span></a>
+          </tr>
+        </mj-table>
+        <mj-spacer css-class="hidden-desktop" height="20px" />
+        <mj-spacer css-class="hidden-mobile" height="20px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="hidden-desktop">
+      <mj-column>
+        <mj-divider border-color="#ffffff" border-style="solid" border-width="1px" />
+      </mj-column>
+    </mj-section>
+
+
+    <!-- Gaming Peripherals Trio Mobile -->
+
+    <mj-section css-class="hidden-mobile" mj-class="gray-bg">
+      <mj-column>
+        <mj-divider border-color="#ffffff" border-style="solid" border-width="1px" />
+        <mj-spacer height="30px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="hidden-mobile" mj-class="gray-bg">
+      <mj-column>
+        <mj-image href="https://www.google.co.uk" src="https://ci3.googleusercontent.com/meips/ADKq_NarV5jKZ6G332AdAOp6ILwugWc56XPpJ7RMwmitBWyg1Bqug9WMQyjRZKZQao-ULVMDSIroAfGuY3KONP0GKevoDb4YwO3YSgZH0q4SXhRsB_kLYu_HrdRhub7ouvvjT83vds1e9tPudrG0bzFtjLk_hA=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/d33512f2038e7851d2f3564fbc622842.jpg" width="100px" />
+        <mj-spacer height="30px" />
+        <mj-text align="center" mj-class="cta-text bold uppercase">
+          <a href="https://www.google.co.uk" class="white" style="text-decoration: none;">Shop space <span class="icon-text">►</span></a>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image href="https://www.google.co.uk" src="https://ci3.googleusercontent.com/meips/ADKq_NaRJ3qM_mZ7by19KJrqucGhbL9VyrN00L6UCWLu10d6xsFo3nwWhw1tyOXG4_gnwA6pRjt1s81hJKi_y9_onJOENZWUf1Jar27sOJCLyDvXAmQ1Xqd37AL0rXMFxjQ-8fbrQL2cpKCTom78Zp7qvEAtwg=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/41b34e9b2bc136f9e409c92d355653e5.jpg" width="100px" />
+        <mj-spacer height="30px" />
+        <mj-text align="center" mj-class="white cta-text bold uppercase">
+          <a href="https://www.google.co.uk" class="white" style="text-decoration: none;">Shop flight <span class="icon-text">►</span></a>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image href="https://www.google.co.uk" src="https://ci3.googleusercontent.com/meips/ADKq_NZ58cFwJFNSUmn07d54rpVXYekpa8wultbXt2L6FTRxVgQHV9RtWZYB9urzKMqnJyytxi8qm9GOr_goykL_nkzk19rYzlhvS-dP2YqQZ2zJVzhdfvlwrlEER3K5kOmraYHI2dglMbrxq9QOiQNJycXsrg=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/bab521c660c356a8e66561966ce3c5be.jpg" width="100px" />
+        <mj-spacer height="30px" />
+        <mj-text align="center" mj-class="white cta-text bold uppercase">
+          <a href="https://www.google.co.uk" class="white" style="text-decoration:none;">Shop farm <span class="icon-text">►</span></a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="hidden-mobile" mj-class="gray-bg">
+      <mj-column>
+        <mj-spacer height="30px" />
+        <mj-divider border-color="#ffffff" border-style="solid" border-width="1px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Gaming Peripherals Trio Mobile -->
+
+    <mj-section css-class="hidden-desktop" mj-class="dark-gray-bg" padding="0">
+      <mj-column width="100%">
+        <mj-spacer height="40px" />
+        <mj-image href="https://www.google.co.uk" src="https://ci3.googleusercontent.com/meips/ADKq_NarV5jKZ6G332AdAOp6ILwugWc56XPpJ7RMwmitBWyg1Bqug9WMQyjRZKZQao-ULVMDSIroAfGuY3KONP0GKevoDb4YwO3YSgZH0q4SXhRsB_kLYu_HrdRhub7ouvvjT83vds1e9tPudrG0bzFtjLk_hA=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/d33512f2038e7851d2f3564fbc622842.jpg" />
+        <mj-spacer height="40px" />
+        <mj-text align="center" mj-class="body-text bold uppercase">
+          <a href="https://www.google.co.uk" class="white" style="text-decoration:none;">Shop space <span class="icon-text">►</span></a>
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-spacer height="40px" />
+        <mj-image href="https://www.google.co.uk" src="https://ci3.googleusercontent.com/meips/ADKq_NaRJ3qM_mZ7by19KJrqucGhbL9VyrN00L6UCWLu10d6xsFo3nwWhw1tyOXG4_gnwA6pRjt1s81hJKi_y9_onJOENZWUf1Jar27sOJCLyDvXAmQ1Xqd37AL0rXMFxjQ-8fbrQL2cpKCTom78Zp7qvEAtwg=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/41b34e9b2bc136f9e409c92d355653e5.jpg" />
+        <mj-spacer height="40px" />
+        <mj-text align="center" mj-class="white body-text bold uppercase">
+          <a href="https://www.google.co.uk" class="white" style="text-decoration:none;">Shop flight <span class="icon-text">►</span></a>
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-spacer height="40px" />
+        <mj-image href="https://www.google.co.uk" src="https://ci3.googleusercontent.com/meips/ADKq_NZ58cFwJFNSUmn07d54rpVXYekpa8wultbXt2L6FTRxVgQHV9RtWZYB9urzKMqnJyytxi8qm9GOr_goykL_nkzk19rYzlhvS-dP2YqQZ2zJVzhdfvlwrlEER3K5kOmraYHI2dglMbrxq9QOiQNJycXsrg=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/bab521c660c356a8e66561966ce3c5be.jpg" />
+        <mj-spacer height="40px" />
+        <mj-text align="center" mj-class="white body-text bold uppercase">
+          <a href="https://www.google.co.uk" class="white" style="text-decoration:none;">Shop farm <span class="icon-text">►</span></a>
+        </mj-text>
+        <mj-spacer height="40px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="hidden-desktop">
+      <mj-column>
+        <mj-divider border-color="#ffffff" border-style="solid" border-width="1px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Gaming Apparel -->
+
+    <mj-section mj-class="white-bg">
+      <mj-column>
+        <mj-image fluid-on-mobile="true" href="https://www.google.co.uk" src="https://ci3.googleusercontent.com/meips/ADKq_NZ2T6Utamm2rZCgLah_rRL5JhzkN8SspecXIivsB1e-pF0xL4DlnNZvton1um4JMbhAdO92zseCfThdL5adB-nl_ZznbJKNQbl2ZvmPbxHQ60ZH4q25ufClfcnx5dEQHnbfDVQSsCrayBUMoDxARGMuuw=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/6d7ff27e39d12328b57b40b8105afaa3.jpg" width="367px" />
+      </mj-column>
+      <mj-column padding-left="20px">
+        <mj-spacer css-class="hidden-desktop" height="25px" />
+        <mj-spacer css-class="hidden-mobile" height="40px" />
+        <mj-text mj-class="black subheader-text uppercase">
+          Gaming apparel
+        </mj-text>
+        <mj-spacer css-class="hidden-desktop" height="15px" />
+        <mj-spacer css-class="hidden-mobile" height="10px" />
+        <mj-divider align="left" border-color="#c3c6c8" border-style="solid" border-width="6px" width="84px" />
+        <mj-spacer css-class="hidden-desktop" height="20px" />
+        <mj-spacer css-class="hidden-mobile" height="16px" />
+        <mj-text mj-class="black body-text">
+          High-quality, advanced apparel designed for an active player.
+        </mj-text>
+        <mj-spacer css-class="hidden-desktop" height="20px" />
+        <mj-spacer css-class="hidden-mobile" height="30px" />
+        <mj-button align="left" border-radius="3px" mj-class="white light-blue-bg button-text uppercase" css-class="button-sizing" height="55px" href="https://www.google.co.uk">
+          Shop apparel
+        </mj-button>
+        <mj-spacer css-class="hidden-desktop" height="25px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="hidden-desktop">
+      <mj-column>
+        <mj-divider border-color="#000000" border-style="solid" border-width="1px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Collect Emails -->
+
+    <mj-section text-align="left" direction="rtl" css-class="collect-emails-desktop-image" mj-class="gray-bg" background-url="https://ci3.googleusercontent.com/meips/ADKq_NaiziAC3Bx7JRawFuZJHSQBetDCty0rWOY0tGbFpbsqFyOx6ztGjB-6O8yvPLUablbOwl74U9LecA81AURj1QRNAFl7LDStlPYSg5zS3EKeuEahYRvspopK7MGqrNBxaDlVxX9b7IgVOBtBXJb0XBbTEg=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/316e60664b9ea8eaf7f9388bdf4ee073.jpg" background-repeat="no-repeat" background-size="100%" css-class="desktop-padding" padding="0 20px">
+      <mj-column>
+        <mj-spacer height="250px" />
+      </mj-column>
+      <mj-column>
+        <mj-spacer css-class="hidden-desktop" height="80px" />
+        <mj-spacer css-class="hidden-mobile" height="40px" />
+        <mj-text mj-class="very-light-gray subheader-text">
+          COLLECT ALL THREE EMAILS
+        </mj-text>
+        <mj-spacer height="10px" />
+        <mj-divider align="left" border-color="#C3C6C8" border-width="6px" width="84px" />
+        <mj-spacer height="26px" />
+        <mj-text mj-class="very-light-gray body-text">
+          Next up in the series: a passion for connection.
+        </mj-text>
+        <mj-spacer height="40px" />
+      </mj-column>
+      <mj-column css-class="hidden-mobile" width="20px">
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-divider border-color="#ffffff" border-width="1px" />
+      </mj-column>
+    </mj-section>
+
+
+    <!-- Social links -->
+
+    <mj-include path="../../components/socialbanner.mjml" />
+
+    <!-- Logitech Logo Footer -->
+
+    <mj-include path="../../components/footerlogo.mjml" />
+
+    <!-- Regulatory -->
+
+    <mj-include path="../../components/regulatory.mjml" />
+
+
+  </mj-body>
+
+</mjml>

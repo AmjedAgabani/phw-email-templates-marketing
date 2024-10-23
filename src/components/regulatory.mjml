@@ -21,22 +21,22 @@
 <mj-section css-class="hidden-desktop" mj-class="white-bg" padding="0 20px">
   <mj-column>
     <mj-text align="center" mj-class="black cta-text uppercase" padding="15px">
-      <a href="#">Privacy + Security</a>
+      <a href="#" class="black" style="text-decoration:none;">Privacy + Security</a>
     </mj-text>
   </mj-column>
   <mj-column>
     <mj-text align="center" mj-class="black cta-text uppercase" padding="15px">
-      <a href="#">Preferences</a>
+      <a href="#" class="black" style="text-decoration:none;">Preferences</a>
     </mj-text>
   </mj-column>
   <mj-column>
     <mj-text align="center" mj-class="black cta-text uppercase" padding="15px">
-      <a href="#">Contact</a>
+      <a href="#" class="black" style="text-decoration:none;">Contact</a>
     </mj-text>
   </mj-column>
   <mj-column>
     <mj-text align="center" mj-class="black cta-text uppercase" padding="15px">
-      <a href="#">Terms of use</a>
+      <a href="#" class="black" style="text-decoration:none;">Terms of use</a>
     </mj-text>
   </mj-column>
 </mj-section>
