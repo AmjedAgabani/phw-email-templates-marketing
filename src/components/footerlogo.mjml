@@ -6,7 +6,7 @@
 <mj-section mj-class="white-bg" padding="0 20px">
   <mj-column>
     <mj-spacer height="40px" />
-    <mj-image href="#" src="https://i.imgur.com/DmBhrYT.png" width="159px" />
+    <mj-image href="#" src="{{imgBaseUrl}}/phw-logo-black.png" width="159px" />
     <mj-spacer height="30px" />
   </mj-column>
 </mj-section>
