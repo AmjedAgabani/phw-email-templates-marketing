@@ -357,8 +357,7 @@
         <mj-spacer height="250px" />
       </mj-column>
       <mj-column>
-        <mj-spacer css-class="hidden-desktop" height="80px" />
-        <mj-spacer css-class="hidden-mobile" height="40px" />
+        <mj-spacer height="40px" />
         <mj-text mj-class="very-light-gray subheader-text">
           COLLECT ALL THREE EMAILS
         </mj-text>
@@ -384,7 +383,7 @@
 
     <mj-include path="../../components/socialbanner.mjml" />
 
-    <!-- Logitech logo footer -->
+    <!-- PHW logo footer -->
 
     <mj-include path="../../components/footerlogo.mjml" />
 
