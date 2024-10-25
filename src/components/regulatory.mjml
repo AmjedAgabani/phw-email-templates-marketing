@@ -45,15 +45,16 @@
   <mj-column>
     <mj-spacer height="20px" />
     <mj-text align="center" mj-class="black regulatory-text">
-      © 2023 Logitech. All rights reserved. The Logitech G logo and other Logitech marks are owned by Logitech and may be registered.
+      © 2024 Pioneer Hardware World. All rights reserved. The Pioneer Hardware World logo and other marks are owned by Pioneer Hardware World.
     </mj-text>
     <mj-spacer height="20px" />
     <mj-text align="center" mj-class="black regulatory-text">
-      Logitech Americas Headquarters.<br>7700 Gateway Blvd. Newark, CA 94560 USA
+      Pioneer Hardware World Headquarters.<br>123 Innovation Lane.
+      Springfield, Illinois, 62704. USA
     </mj-text>
     <mj-spacer height="20px" />
     <mj-text align="center" mj-class="black regulatory-text">
-      You are receiving this e-mail because our records indicate you requested that we send information to <a href="#">name@mail.com</a> regarding special offers, newsletters, product information and updates from Logitech G. To be removed from our mailing list, <a href="#">click here</a>.
+      You are receiving this e-mail because our records indicate you requested that we send information to <a href="#">name@mail.com</a> regarding special offers, newsletters, product information and updates from Pioneer Hardware World. To be removed from our mailing list, <a href="#">click here</a>.
     </mj-text>
     <mj-spacer height="32px" />
   </mj-column>
