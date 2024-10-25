@@ -139,7 +139,7 @@
         <mj-table align="center">
           <tr>
             <td style="display:inline;">
-              <img src="https://ci3.googleusercontent.com/meips/ADKq_NbKddQo20alxYIvJ32W9jjuiZ8Ev466bs8RpUd7m7mdvZke2shOM1TG-hdmSV9gJob8_TCsR_9dZ8ZlMSVC6xLPQhMUi97xhxegd9exdwG5Q2rWUUGysHbforrJsRF0rIYyr0qKcCEaEkrj4exL0b6jig=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/cdce7cb72d1645da3b3a6666b1cc036f.png" height="50" style="display:block; vertical-align: top;" width="50">
+              <img src="{{imgBaseUrl}}/drill.png" height="50" style="display:block; vertical-align: top;" width="50">
             </td>
             <td class="black body-text" style="padding-left: 20px; padding-right: 25px">
               Experience cutting-edge technology that enhances your work efficiency and reduces fatigue. <span class="hidden-desktop"><br></span><a href="#" class="light-blue bold uppercase" style="text-decoration: none;">More <span class="icon-text">►</span></a>
@@ -193,7 +193,7 @@
         <mj-table align="center">
           <tr>
             <td style="display:inline;">
-              <img src="https://ci3.googleusercontent.com/meips/ADKq_Nb7RYgtwUNnWLdAO5cFcgAGmf1BKrLcXdx1HRrwe0X0Xk2oXwF45gJJN6hHnD0xwrQWVVKJVBXe1Ynd3Dl-bXUzad041TScyU2ySkOfxTEyZc3EQquIJPb-AxlxpeqEHkfNQr-9t7UJ2i5m2Mze8gGdfg=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/dbae0bcf39026fa54326156ec6d4f2af.png" height="50" style="display:block; vertical-align: top;" width="50">
+              <img src="{{imgBaseUrl}}/repair-tools.png" height="50" style="display:block; vertical-align: top;" width="50">
             </td>
             <td class="white body-text" style="padding-left: 20px; padding-right: 25px">
               Ergonomically designed for comfort and ease of use. <span class="hidden-desktop"><br></span><a href="#" class="light-blue bold uppercase" style="text-decoration: none;">More <span class="icon-text">►</span></a>
@@ -247,7 +247,7 @@
         <mj-table align="center">
           <tr>
             <td style="display:inline;">
-              <img src="https://ci3.googleusercontent.com/meips/ADKq_NbmqiY15f8GkI686bbCCdccoRHT4edJjvYE43rNexarUqPBYJd6dwS4jvFtOkTJvdc6vlC4Mk12wQTq5YbUaERlUut6vWPFUmhym0g8wGKLtaeufT4ycpt8G8jjwOk1ZbrDb47ocUdw-RPArRHsTaekPQ=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/fc5033313f42a3ef6f1df7c11fe368ef.png" height="50" style="display:block; vertical-align: top;" width="50">
+              <img src="{{imgBaseUrl}}/toolbox.png" height="50" style="display:block; vertical-align: top;" width="50">
             </td>
             <td class="black body-text" style="padding-left: 20px; padding-right: 25px">
               Discover innovative solutions to enhance your workflow. <span class="hidden-desktop"><br></span><a href="#" class="light-blue bold uppercase" style="text-decoration: none;">More <span class="icon-text">►</span></a>
@@ -301,7 +301,7 @@
         <mj-table align="center">
           <tr>
             <td style="display:inline;">
-              <img src="https://ci3.googleusercontent.com/meips/ADKq_NZ3tDspUMRhEsUCh07TlrKXT3llXIPGk7JEiewX3m3WvLHC9zVkfbKIlMu3snaperNAHRF4amJmGxsB4UQEAeeEL0wFjzSpoEJ08TT4w-4rjei75w1ifmcm4WX07S6ozSl9_w9e1s95tITrixqJbVZ0Xw=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/125fe97b88ec5d7365b69bafe93072e0.png" height="50" style="display:block; vertical-align: top;" width="50">
+              <img src="{{imgBaseUrl}}/helmet.png" height="50" style="display:block; vertical-align: top;" width="50">
             </td>
             <td class="white body-text" style="padding-left: 20px; padding-right: 25px">
               Designed to protect you on the job, ensuring you can focus on your tasks. <a href="#" class="light-blue bold uppercase" style="text-decoration: none;">More <span class="icon-text">►</span></a>
@@ -355,7 +355,7 @@
         <mj-table align="center">
           <tr>
             <td style="display:inline;">
-              <img src="https://ci3.googleusercontent.com/meips/ADKq_NYnteMwuE2P7TUYxyly9tEn8Bp6I2n2PvQVC2Wif2QjUoISk7sMDCDvGjHt_eTYp8H-n0FjVjmk-1BFsDpYdUJ0RFOMHr2wHveL9tB86hOzqjOj1N80atggDENErTYWhLL8obQ4cjubqd3jOTxn1Kw21A=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/aa6a48b9d17794b292fd7695dd9cc7d7.png" height="50" style="display:block; vertical-align: top;" width="50">
+              <img src="{{imgBaseUrl}}/blueprint.png" height="50" style="display:block; vertical-align: top;" width="50">
             </td>
             <td class="black body-text" style="padding-left: 20px; padding-right: 25px">
               The PRO SERIES was developed with input from industry professionals to ensure top performance. <span class="hidden-desktop"><br></span><a href="#" class="light-blue bold uppercase" style="text-decoration: none;">Watch the video <span class="icon-text">►</span></a>
@@ -409,7 +409,7 @@
         <mj-table align="center">
           <tr>
             <td style="display:inline;">
-              <img src="https://ci3.googleusercontent.com/meips/ADKq_NYnteMwuE2P7TUYxyly9tEn8Bp6I2n2PvQVC2Wif2QjUoISk7sMDCDvGjHt_eTYp8H-n0FjVjmk-1BFsDpYdUJ0RFOMHr2wHveL9tB86hOzqjOj1N80atggDENErTYWhLL8obQ4cjubqd3jOTxn1Kw21A=s0-d-e1-ft#https://res.mail1.astrogaming.com/res/logitec_mkt_prod1/aa6a48b9d17794b292fd7695dd9cc7d7.png" height="50" style="display:block; vertical-align: top;" width="50">
+              <img src="{{imgBaseUrl}}/wheelbarrow.png" height="50" style="display:block; vertical-align: top;" width="50">
             </td>
             <td class="white body-text" style="padding-left: 20px; padding-right: 25px">
               Whether it's for construction, gardening, or home improvement, we’ve got you covered. <span class="hidden-desktop"><br></span><a href="#" class="light-blue bold uppercase" style="text-decoration: none;">Watch the video <span class="icon-text">►</span></a>
