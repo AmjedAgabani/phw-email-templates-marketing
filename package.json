@@ -22,6 +22,7 @@
   "homepage": "https://github.com/AmjedAgabani/phw-email-templates-marketing#readme",
   "devDependencies": {
     "browser-sync": "^2.29.1",
+    "glob": "^11.0.0",
     "gulp": "^4.0.2",
     "handlebars": "^4.7.8",
     "mjml": "^4.15.3",
