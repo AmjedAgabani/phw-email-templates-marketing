@@ -26,6 +26,8 @@ jobs:
           python-version: 3.x
       - name: "Toolchain: ghp-import"
         run: pip3 install ghp-import
+      - name: "Install"
+        run: npm ci
       - name: "Build"
         run: npm run build
       - name: Deploy
