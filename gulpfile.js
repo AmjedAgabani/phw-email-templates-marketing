@@ -1,7 +1,7 @@
 const browserSync = require('browser-sync').create();
 const fs = require('fs');
 const Handlebars = require('handlebars');
-const { dest, parallel, src, watch: gulpWatch } = require('gulp');
+const { dest, parallel, series, src, watch: gulpWatch } = require('gulp');
 const mjml = require('./gulp-mjml');
 const mjmlEngine = require('mjml');
 const path = require('path');
@@ -45,6 +45,10 @@ function copyImages() {
     .pipe(dest(BUILD_DIR + '/img'));
 }
 
+function generateIndex(cb) {
+  index.render(cb);
+}
+
 function clean(cb) {
   fs.rm(BUILD_DIR, { force: true, recursive: true }, cb);
 }
@@ -70,7 +74,7 @@ function watch() {
   gulpWatch(SRC_IMG_GLOB, { ignoreInitial: false }, copyImages);
 }
 
-exports.build = parallel(buildMjml, copyImages);
+exports.build = series(parallel(buildMjml, copyImages), generateIndex);
 exports.clean = clean;
 exports.watch = watch;
 
