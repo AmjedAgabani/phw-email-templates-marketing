@@ -6,6 +6,7 @@ const mjml = require('./gulp-mjml');
 const mjmlEngine = require('mjml');
 const path = require('path');
 const argv = require('yargs').argv;
+const glob = require('glob');
 
 const templateData = {
   "imgBaseUrl": argv.imgBaseUrl,
@@ -46,7 +47,18 @@ function copyImages() {
 }
 
 function generateIndex(cb) {
-  index.render(cb);
+  glob.glob('build/*/*.html')
+    .then(files => {
+      files.forEach((file) => {
+        console.log(file);
+        index.data.add(file);
+      })
+    }).then(() => {
+      return index.render(cb);
+    })
+    .catch(err => {
+      console.error(err)
+    })
 }
 
 function clean(cb) {
@@ -98,6 +110,7 @@ const index = {
 
     // Group the data by the first directory in their path
     data.forEach((file) => {
+      file = file.replace("build\\", "");
       const splitPath = file.split(path.sep);
       const groupName = splitPath[0];
       const filePath = splitPath.slice(1).join(path.sep);
@@ -123,7 +136,7 @@ const index = {
   <body>
     <h1>Email Index</h1>
     <ul>
-  ${sortedGroups
+    ${sortedGroups
         .map((groupName) => {
           return `<li><strong>${groupName}</strong><ul>${groups[groupName]
             .map((filePath) => {
