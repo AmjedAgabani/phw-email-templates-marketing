@@ -47,10 +47,10 @@ function copyImages() {
 }
 
 function generateIndex(cb) {
-  glob.glob('build/*/*.html')
+  glob.glob(SRC_EMAIL_GLOB)
     .then(files => {
       files.forEach((file) => {
-        index.data.add(file);
+        index.data.add(index.format(file));
       })
     }).then(() => {
       return index.render(cb);
@@ -109,7 +109,6 @@ const index = {
 
     // Group the data by the first directory in their path
     data.forEach((file) => {
-      file = path.relative("build", file)
       const splitPath = file.split(path.sep);
       const groupName = splitPath[0];
       const filePath = splitPath.slice(1).join(path.sep);
