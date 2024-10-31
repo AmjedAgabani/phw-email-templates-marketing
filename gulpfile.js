@@ -109,10 +109,7 @@ const index = {
 
     // Group the data by the first directory in their path
     data.forEach((file) => {
-      // WINDOW - build\\marketing\\keepplaying.html 
-      // LINUX - build/marketing/keepplaying.html
       file = path.relative("build", file)
-      console.log(file)
       const splitPath = file.split(path.sep);
       const groupName = splitPath[0];
       const filePath = splitPath.slice(1).join(path.sep);
