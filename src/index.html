@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+    <h1 style="color: red">Email Index</h1>
+    <ul>
+        {{#each directory}}
+        <li>
+            <strong>{{name}}</strong>
+            <ul>
+                {{#each values}}
+                <li><a href="{{../name}}/{{this}}">{{this}}</a></li>
+                {{/each}}
+            </ul>
+        </li>
+        {{/each}}
+    </ul>
+</body>
+
+</html>

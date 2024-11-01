@@ -20,6 +20,7 @@ const SRC_IMG_GLOB = './src/img/**/*'
 const SRC_GLOB = './src/**/*';
 const SRC_EMAIL_DIR = './src/emails';
 const SRC_EMAIL_GLOB = './src/emails/**/*.mjml';
+const SRC_INDEX = './src/index.html';
 
 function handleError(err) {
   console.error(err);
@@ -66,11 +67,11 @@ function clean(cb) {
 
 function watch() {
   // All events will be watched
-  gulpWatch(SRC_GLOB, { ignoreInitial: false }, buildMjml).on('all', () =>
+  gulpWatch([SRC_GLOB, SRC_INDEX], { ignoreInitial: false }, buildMjml).on('all', () =>
     browserSync.reload()
   );
 
-  gulpWatch(SRC_EMAIL_GLOB, { ignoreInitial: false }, index.render)
+  gulpWatch([SRC_EMAIL_GLOB, SRC_INDEX], { ignoreInitial: false }, index.render)
     .on('ready', () => {
       fs.mkdirSync('build', { recursive: true });
       browserSync.init({
@@ -79,7 +80,11 @@ function watch() {
         },
       });
     })
-    .on('add', (file) => index.data.add(index.format(file)))
+    .on('add', (file) => {
+      if (file.endsWith('.mjml')) {
+        index.data.add(index.format(file));
+      }
+    })
     .on('unlink', (file) => index.data.delete(index.format(file)));
 
   gulpWatch(SRC_IMG_GLOB, { ignoreInitial: false }, copyImages);
@@ -124,29 +129,21 @@ const index = {
     sortedGroups.forEach((groupName) => {
       groups[groupName].sort();
     });
-
+  
     // Generate the HTML for the index page
-    const html = `
-  <!DOCTYPE html>
-  <html>
-  <head>
-  </head>
-  <body>
-    <h1>Email Index</h1>
-    <ul>
-    ${sortedGroups
-        .map((groupName) => {
-          return `<li><strong>${groupName}</strong><ul>${groups[groupName]
-            .map((filePath) => {
-              return `<li><a href="${groupName}/${filePath}">${filePath}</a></li>`;
-            })
-            .join('')}</ul></li>`;
-        })
-        .join('\n')}
-    </ul>
-  </body>
-  </html>`;
-
+    const templateBuffer = fs.readFileSync(SRC_INDEX);
+    const templateString = templateBuffer.toString('utf8');
+    const template = Handlebars.compile(templateString)
+    const directory = sortedGroups.map((groupName) => {
+      return {
+        name: groupName,
+        values: groups[groupName],
+      }
+    })
+    const html = template({
+      directory,
+    });
+    
     // Write the HTML to the build directory
     fs.writeFile(`${BUILD_DIR}/index.html`, html, cb);
   },
