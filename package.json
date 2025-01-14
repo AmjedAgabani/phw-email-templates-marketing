@@ -7,6 +7,7 @@
     "build": "npx gulp build --imgBaseUrl=https://amjedagabani.github.io/phw-email-templates-marketing/img",
     "build:dev": "npx gulp build --imgBaseUrl=http://localhost:3000/img",
     "clean": "npx gulp clean",
+    "serve": "npx serve build/",
     "watch": "npx gulp watch --imgBaseUrl=http://localhost:3000/img"
   },
   "repository": {
@@ -21,13 +22,17 @@
   },
   "homepage": "https://github.com/AmjedAgabani/phw-email-templates-marketing#readme",
   "devDependencies": {
+    "autoprefixer": "^10.4.20",
     "browser-sync": "^2.29.1",
     "glob": "^11.0.0",
     "gulp": "^4.0.2",
+    "gulp-postcss": "^10.0.0",
     "handlebars": "^4.7.8",
     "mjml": "^4.15.3",
     "plugin-error": "^2.0.1",
     "replace-ext": "^2.0.0",
+    "serve": "^14.2.4",
+    "tailwindcss": "^3.4.17",
     "through2": "^4.0.2",
     "yargs": "^17.7.2"
   }

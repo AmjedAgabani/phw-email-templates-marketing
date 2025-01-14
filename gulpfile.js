@@ -7,6 +7,9 @@ const mjmlEngine = require('mjml');
 const path = require('path');
 const argv = require('yargs').argv;
 const glob = require('glob');
+const postcss = require('gulp-postcss');
+const tailwindcss = require('tailwindcss');
+const autoprefixer = require('autoprefixer');
 
 const templateData = {
   "imgBaseUrl": argv.imgBaseUrl,
@@ -16,11 +19,13 @@ const templateData = {
 // require('./components')
 
 const BUILD_DIR = './build';
+const BUILD_INDEX_HTML = './build/index.html';
 const SRC_IMG_GLOB = './src/img/**/*'
+const SRC_INDEX_CSS = './src/index/index.css';
 const SRC_GLOB = './src/**/*';
 const SRC_EMAIL_DIR = './src/emails';
 const SRC_EMAIL_GLOB = './src/emails/**/*.mjml';
-const SRC_INDEX = './src/index.html';
+const SRC_INDEX_HTML = './src/index/index.html';
 
 function handleError(err) {
   console.error(err);
@@ -47,6 +52,16 @@ function copyImages() {
     .pipe(dest(BUILD_DIR + '/img'));
 }
 
+function buildIndexCss() {
+  return src(SRC_INDEX_CSS)
+    .pipe(postcss([
+      tailwindcss('./tailwind.config.js'),
+      autoprefixer(),
+    ]))
+    .on('error', handleError)
+    .pipe(dest(BUILD_DIR))
+}
+
 function generateIndex(cb) {
   glob.glob(SRC_EMAIL_GLOB)
     .then(files => {
@@ -67,11 +82,11 @@ function clean(cb) {
 
 function watch() {
   // All events will be watched
-  gulpWatch([SRC_GLOB, SRC_INDEX], { ignoreInitial: false }, buildMjml).on('all', () =>
+  gulpWatch([SRC_GLOB, SRC_INDEX_HTML], { ignoreInitial: false }, buildMjml).on('all', () =>
     browserSync.reload()
   );
 
-  gulpWatch([SRC_EMAIL_GLOB, SRC_INDEX], { ignoreInitial: false }, index.render)
+  gulpWatch([SRC_EMAIL_GLOB, SRC_INDEX_HTML], { ignoreInitial: false }, index.render)
     .on('ready', () => {
       fs.mkdirSync('build', { recursive: true });
       browserSync.init({
@@ -88,9 +103,10 @@ function watch() {
     .on('unlink', (file) => index.data.delete(index.format(file)));
 
   gulpWatch(SRC_IMG_GLOB, { ignoreInitial: false }, copyImages);
+  gulpWatch([BUILD_INDEX_HTML, SRC_INDEX_CSS], { ignoreInitial: false }, buildIndexCss);
 }
 
-exports.build = series(parallel(buildMjml, copyImages), generateIndex);
+exports.build = series(parallel(buildMjml, copyImages), generateIndex, buildIndexCss);
 exports.clean = clean;
 exports.watch = watch;
 
@@ -129,9 +145,9 @@ const index = {
     sortedGroups.forEach((groupName) => {
       groups[groupName].sort();
     });
-  
+
     // Generate the HTML for the index page
-    const templateBuffer = fs.readFileSync(SRC_INDEX);
+    const templateBuffer = fs.readFileSync(SRC_INDEX_HTML);
     const templateString = templateBuffer.toString('utf8');
     const template = Handlebars.compile(templateString)
     const directory = sortedGroups.map((groupName) => {
@@ -143,7 +159,7 @@ const index = {
     const html = template({
       directory,
     });
-    
+
     // Write the HTML to the build directory
     fs.writeFile(`${BUILD_DIR}/index.html`, html, cb);
   },
