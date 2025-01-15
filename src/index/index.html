@@ -86,10 +86,15 @@
 
             {{#each directory}}
             <h1 class="text-3xl font-sans font-semibold capitalize mt-4 mb-4 ">{{name}}</h1>
-            <ul role="list" class="divide-y divide-white/5 mb-8">
+            <ul role="list" class="mb-8">
                 {{#each values}}
+                <div class="relative">
+                    <div class="absolute inset-0 flex items-center" aria-hidden="true">
+                        <div class="w-full border-t border-[#2c2f33]"></div>
+                    </div>
+                </div>
                 <li
-                    class="relative flex items-center space-x-4 py-4 hover:bg-[#7f5af0] transition duration-200 ease-in-out">
+                    class="relative flex items-center space-x-4 py-4 hover:bg-[#7f5af0] transition duration-200 ease-in-out rounded-lg pl-2 pr-2">
                     <div class="min-w-0 flex-auto">
                         <div class="flex items-center gap-x-3">
                             <div class="flex-none rounded-full bg-gray-100/10 p-1 text-[#2cb67d]">
@@ -115,6 +120,11 @@
                             clip-rule="evenodd" />
                     </svg>
                 </li>
+                <div class="relative">
+                    <div class="absolute inset-0 flex items-center" aria-hidden="true">
+                        <div class="w-full border-t border-[#2c2f33]"></div>
+                    </div>
+                </div>
                 {{/each}}
             </ul>
             {{/each}}
